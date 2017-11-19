@@ -10,13 +10,45 @@
 }
 
 
-.grey:hover{
-    transform: rotate3d(0, 1, 0, 6deg);
-/*    zoom();*/
-}
-
 .lightGrey{
     position: relative;
     z-index: 10;
     margin-top:-100px;
+}
+
+.grey-active .black,.grey-active .lightGrey{
+  opacity: 0.3;
+}
+
+.black-active .grey,.black-active .lightGrey{
+  opacity: 0.3;
+}
+
+.light-grey-active .black,.light-grey-active .grey{
+  opacity: 0.3;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    z-index: 0;
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    z-index:0;
 }
