@@ -13,14 +13,19 @@ $(document).ready(function() {
         anime({
             targets:'div.grey',
             translateY: [
-            { value: 150, duration: 800, easing: 'easeInOutSine'},
+            { value: 100, duration: 800, easing: 'easeInOutSine'},
             ]
             })
         anime({
             targets:'div.lightGrey',
             translateY: [
-            { value: 300, duration: 800, easing: 'easeInOutSine'},
+            { value: 200, duration: 800, easing: 'easeInOutSine'},
             ]
             })
     })
+        // anime({
+        //     targets:'div.all',
+        //     scale: '*=2',
+        //     })
+
 })
