@@ -82,6 +82,11 @@
   opacity: 0.3;
 }
 
+/*.notActive{
+    opacity:0.3;
+}*/
+
+
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */

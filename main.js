@@ -50,8 +50,8 @@ $(document).ready(function() {
 //when the user clicks on an item open the modal
         $(".black").click(function(){
         $(this).zoomTarget();
-        // $("#black").css({display:"block"});
-        // console.log("black");
+        $("#black").css({display:"block"});
+        console.log("black");
         })
 
         $(".grey").click(function(){
