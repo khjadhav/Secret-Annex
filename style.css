@@ -1,12 +1,27 @@
-.black{
+#cube{
+    position: relative;
+    z-index: 40;
+    margin-left:300px;
+}
+
+#cube1{
+    position: relative;
+    z-index: 40;
+    margin-left:-6px;
+}
+
+#cube2{
     position: relative;
     z-index: 30;
+    margin-left:-256px;
+    padding-bottom: 50px;
 }
-.grey{
 
+.grey{
     position: relative;
     z-index: 20;
     margin-top:-100px;
+    margin-left:300px;
 }
 
 
@@ -14,6 +29,7 @@
     position: relative;
     z-index: 10;
     margin-top:-100px;
+    margin-left:300px;
 }
 
 .grey-active .black,.grey-active .lightGrey{
