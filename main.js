@@ -25,31 +25,43 @@ $(document).ready(function() {
         $(this).parents('.all').addClass('expanded');
     })
 
-    $(document).on("mouseenter", ".expanded .grey img", function() {
-      $(this).parents('.all').removeClass('grey-active black-active light-grey-active');
-      $(this).parents('.all').addClass('grey-active');
-    }).on('mouseleave', function() {
-      $(this).parents('.all').removeClass('grey-active');
+
+
+    // $(document).on("mouseenter", ".expanded .grey", function() {
+    //   $(this).parents('.all').removeClass('grey-active black-active light-grey-active');
+    //   $(this).parents('.all').addClass('grey-active');
+    // }).on('mouseleave', function() {
+    //   $(this).parents('.all').removeClass('grey-active');
+    // });
+
+    // $(document).on("mouseenter", ".expanded .black", function() {
+    //   $(this).parents('.all').removeClass('grey-active black-active light-grey-active');
+    //   $(this).parents('.all').addClass('black-active');
+    // }).on('mouseleave', function() {
+    //   $(this).parents('.all').removeClass('black-active');
+    // });
+
+    // $(document).on("mouseenter", ".expanded .lightGrey", function() {
+    //   $(this).parents('.all').removeClass('grey-active black-active light-grey-active');
+    //   $(this).parents('.all').addClass('light-grey-active');
+    // }).on('mouseleave', function() {
+    //   $(this).parents('.all').removeClass('light-grey-active');
+    // });
+
+    $(document).on("mouseenter", ".blockClass", function() {
+        $(this).toggleClass('invisible');
     });
 
-    $(document).on("mouseenter", ".expanded .black img", function() {
-      $(this).parents('.all').removeClass('grey-active black-active light-grey-active');
-      $(this).parents('.all').addClass('black-active');
-    }).on('mouseleave', function() {
-      $(this).parents('.all').removeClass('black-active');
-    });
 
-    $(document).on("mouseenter", ".expanded .lightGrey img", function() {
-      $(this).parents('.all').removeClass('grey-active black-active light-grey-active');
-      $(this).parents('.all').addClass('light-grey-active');
-    }).on('mouseleave', function() {
-      $(this).parents('.all').removeClass('light-grey-active');
-    });
-
+    // $(document).on("mouseenter", ".expanded .grey img", function() {
+    //   $(this).parents('.all').removeClass('notActive');
+    //   $("#cube3").addClass('active');
+    // }).on('mouseleave', function() {
+    //   $$("#cube").removeClass('active');
+    // });
 
 //when the user clicks on an item open the modal
         $(".black").click(function(){
-        $(this).zoomTarget();
         $("#black").css({display:"block"});
         console.log("black");
         })

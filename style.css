@@ -62,14 +62,6 @@
 }
 
 
-
-/*.lightGrey{
-    position: relative;
-    z-index: 10;
-    margin-top:-100px;
-    margin-left:300px;
-}*/
-
 .grey-active .black,.grey-active .lightGrey{
   opacity: 0.3;
 }
@@ -82,10 +74,14 @@
   opacity: 0.3;
 }
 
-/*.notActive{
-    opacity:0.3;
-}*/
 
+.active{
+    opacity:1.0;
+}
+
+.notActive{
+    opacity:0.3;
+}
 
 .modal {
     display: none; /* Hidden by default */
@@ -113,6 +109,10 @@
     z-index:50;
 }
 
+.invisible {
+    opacity:0.5;
+}
+
 /* The Close Button */
 .close {
     color: #aaaaaa;
@@ -127,3 +127,7 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+/*#cube:hover {
+    color: yellow;
+}*/
