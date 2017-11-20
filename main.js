@@ -52,7 +52,29 @@ $(document).ready(function() {
 // }
 
         $(".black").click(function(){
-        $("#myModal").css({display:"block"});
+        $("#black").css({display:"block"});
+        console.log("black");
+        })
+
+
+
+        $(".grey").click(function(){
+        $("#grey").css({display:"block"});
+        console.log("grey");
+        })
+
+        $(".lightGrey").click(function(){
+        $("#lightGrey").css({display:"block"});
+        console.log("lightgrey");
+        })
+
+        // span.onclick = function() {
+        // modal.style.display = "none";
+        // }
+
+        $(".close").click(function(){
+            $(this).parents(".modal").css({display:"none"});
+            console.log("close");
         })
 
 })
