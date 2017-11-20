@@ -17,20 +17,58 @@
     padding-bottom: 50px;
 }
 
-.grey{
+#cube3{
     position: relative;
     z-index: 20;
-    margin-top:-100px;
+    margin-top:-150px;
     margin-left:300px;
 }
 
+#cube4{
+    position: relative;
+    z-index: 20;
+    margin-top:-150px;
+    margin-left:-6px;
+}
 
-.lightGrey{
+#cube5{
+    position: relative;
+    z-index: 10;
+    margin-top:-150px;
+    margin-left:-256px;
+    padding-bottom: 50px;
+}
+
+#cube6{
+    position: relative;
+    z-index: 10;
+    margin-top:-150px;
+    margin-left:300px;
+}
+
+#cube7{
+    position: relative;
+    z-index: 10;
+    margin-top:-150px;
+    margin-left:-6px;
+}
+
+#cube8{
+    position: relative;
+    z-index: 0;
+    margin-top:-150px;
+    margin-left:-256px;
+    padding-bottom: 50px;
+}
+
+
+
+/*.lightGrey{
     position: relative;
     z-index: 10;
     margin-top:-100px;
     margin-left:300px;
-}
+}*/
 
 .grey-active .black,.grey-active .lightGrey{
   opacity: 0.3;
