@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
     // { value: 0, duration: 1000, delay:10, easing: 'easeOutExpo' },
-    $("#cube").click(function() {
+    $(".black").click(function() {
 
         anime({
             targets:'div.grey',
@@ -46,11 +46,8 @@ $(document).ready(function() {
       $(this).parents('.all').removeClass('light-grey-active');
     });
 
-// // When the user clicks the button, open the modal
-// btn.onclick = function() {
-//     modal.style.display = "block";
-// }
 
+//when the user clicks on an item open the modal
         $(".black").click(function(){
         $("#black").css({display:"block"});
         console.log("black");
@@ -68,10 +65,7 @@ $(document).ready(function() {
         console.log("lightgrey");
         })
 
-        // span.onclick = function() {
-        // modal.style.display = "none";
-        // }
-
+// when the user clicks on on close, it goes away
         $(".close").click(function(){
             $(this).parents(".modal").css({display:"none"});
             console.log("close");
