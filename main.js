@@ -25,9 +25,8 @@ $(document).ready(function() {
         $(this).parents('.all').addClass('expanded');
     })
 
-
+//for selecting individual floors on the grey floor
     $(".grey-cube").bind("mouseenter", function() {
-
         console.log(this);
         if ( $( this ).hasClass( "notActive" ) ){
             $(this).removeClass("notActive");
@@ -37,8 +36,32 @@ $(document).ready(function() {
         $(this).addClass("active");
         $(this).siblings().addClass('notActive');
         $(this).parent().siblings().addClass("notActive");
-
     });
+
+    $(".black-cube").bind("mouseenter", function() {
+        console.log(this);
+        if ( $(this ).hasClass( "notActive" ) ){
+            $(this).removeClass("notActive");
+            $(this).siblings().removeClass("active");
+        }
+
+        $(this).addClass("active");
+        $(this).siblings().addClass('notActive');
+        $(this).parent().siblings().addClass("notActive");
+    });
+
+    $(".light-grey-cube").bind("mouseenter", function() {
+        console.log(this);
+        if ( $(this ).hasClass( "notActive" ) ){
+            $(this).removeClass("notActive");
+            $(this).siblings().removeClass("active");
+        }
+
+        $(this).addClass("active");
+        $(this).siblings().addClass('notActive');
+        $(this).parent().siblings().addClass("notActive");
+    });
+
 
 
 
