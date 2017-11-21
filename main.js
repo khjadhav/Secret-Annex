@@ -22,13 +22,18 @@ $(document).ready(function() {
                 { value: 30, duration: 2000, delay:10, easing: 'easeOutExpo' },
                 ]
             })
-        $(this).parents('.all').addClass('expanded');
+        $(this).parents('.all').children().addClass('expanded');
+        //check if expanded is getting added to all the classes
+        console.log($(this).parents('.all').children());
     })
 
 //for selecting individual floors on the grey floor
     $(".grey-cube").bind("mouseenter", function() {
+        if ($(this).parent().hasClass('notActive')){
+            $(this).parent().removeClass("notActive");
+        }
         console.log(this);
-        if ( $( this ).hasClass( "notActive" ) ){
+        if ($(this).hasClass("notActive") ){
             $(this).removeClass("notActive");
             $(this).siblings().removeClass("active");
         }
@@ -39,6 +44,10 @@ $(document).ready(function() {
     });
 
     $(".black-cube").bind("mouseenter", function() {
+
+        if ($(this).parent().hasClass('notActive')){
+            $(this).parent().removeClass("notActive");
+        }
         console.log(this);
         if ( $(this ).hasClass( "notActive" ) ){
             $(this).removeClass("notActive");
@@ -51,8 +60,12 @@ $(document).ready(function() {
     });
 
     $(".light-grey-cube").bind("mouseenter", function() {
+
+        if ($(this).parent().hasClass('notActive')){
+            $(this).parent().removeClass("notActive");
+        }
         console.log(this);
-        if ( $(this ).hasClass( "notActive" ) ){
+        if ( $(this).hasClass( "notActive" ) ){
             $(this).removeClass("notActive");
             $(this).siblings().removeClass("active");
         }
