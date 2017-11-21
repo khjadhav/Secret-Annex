@@ -1,18 +1,19 @@
 
 $(document).ready(function() {
+// $(".black").zoomTarget();
     // { value: 0, duration: 1000, delay:10, easing: 'easeOutExpo' },
     $(".black").click(function() {
 
         anime({
             targets:'div.grey',
             translateY: [
-            { value: 100, duration: 800, easing: 'easeInOutSine'},
+            { value: 140, duration: 800, easing: 'easeInOutSine'},
             ]
             })
         anime({
             targets:'div.lightGrey',
             translateY: [
-            { value: 200, duration: 800, easing: 'easeInOutSine'},
+            { value: 280, duration: 800, easing: 'easeInOutSine'},
             ]
             })
 
@@ -60,7 +61,6 @@ $(document).ready(function() {
     });
 
     $(".light-grey-cube").bind("mouseenter", function() {
-
         if ($(this).parent().hasClass('notActive')){
             $(this).parent().removeClass("notActive");
         }
@@ -79,9 +79,16 @@ $(document).ready(function() {
 
 
 //when the user clicks on an item open the modal
-        $(".black").click(function(){
-        $("#black").css({display:"block"});
-        //console.log("black");
+        $("#cube").click(function(){
+            $("#cube1modal").css({display:"block"});
+        })
+
+        $("#cube1").click(function(){
+            $("#cube2modal").css({display:"block"});
+        })
+
+        $("#cube2").click(function(){
+            $("#cube3modal").css({display:"block"});
         })
 
         $(".grey").click(function(){
