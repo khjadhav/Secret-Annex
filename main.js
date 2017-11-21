@@ -26,28 +26,42 @@ $(document).ready(function() {
     })
 
 
-$(document).on('mouseenter',)
+    $(".grey-cube").bind("mouseenter", function() {
+
+        console.log(this);
+        if ( $( this ).hasClass( "notActive" ) ){
+            $(this).removeClass("notActive");
+            $(this).siblings().removeClass("active");
+        }
+
+        $(this).addClass("active");
+        $(this).siblings().addClass('notActive');
+        $(this).parent().siblings().addClass("notActive");
+
+    });
+
+
 
 //when the user clicks on an item open the modal
         $(".black").click(function(){
         $("#black").css({display:"block"});
-        console.log("black");
+        //console.log("black");
         })
 
         $(".grey").click(function(){
         $("#grey").css({display:"block"});
-        console.log("grey");
+        //console.log("grey");
         })
 
         $(".lightGrey").click(function(){
         $("#lightGrey").css({display:"block"});
-        console.log("lightgrey");
+        //console.log("lightgrey");
         })
 
 // when the user clicks on on close, it goes away
         $(".close").click(function(){
             $(this).parents(".modal").css({display:"none"});
-            console.log("close");
+            //console.log("close");
         })
 
 })
