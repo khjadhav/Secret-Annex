@@ -14,7 +14,10 @@
     position: relative;
     z-index: 30;
     margin-left:-256px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
+}
+
+
 }
 
 #cube3{
@@ -36,7 +39,7 @@
     z-index: 10;
     margin-top:-150px;
     margin-left:-256px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 #cube6{
@@ -58,7 +61,7 @@
     z-index: 0;
     margin-top:-150px;
     margin-left:-256px;
-    padding-bottom: 50px;
+    padding-bottom: 100px;
 }
 
 
@@ -81,7 +84,11 @@
 
 
 .notActive{
-    opacity:0.3;
+/*    opacity:0.3;*/
+    img {
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
+}
 }
 
 .zoomModal{

@@ -1,13 +1,13 @@
 
 $(document).ready(function() {
     $(".black").click(function() {
-        $(".black").click(function(evt) {
-        $(this).zoomTo({targetsize:1.5, duration:1600, closeclick:false,});
-        evt.stopPropagation();
-        });
-    $(".all").click(function() {
-        console.log("print");
-    });
+    //     $(".black").click(function(evt) {
+    //     $(this).zoomTo({targetsize:1.5, duration:1600, closeclick:false,});
+    //     evt.stopPropagation();
+    //     });
+    // $(".all").click(function() {
+    //     console.log("print");
+    // });
 
         anime({
             targets:'div.grey',
@@ -80,45 +80,39 @@ $(document).ready(function() {
 
 //for selecting individual floors on the grey floor
 
+// MODALS
+        $("#cube").click(function(){
+            var pos=$(this).position();
+            console.log(pos);
+            $("#cube1modal").css({display:"block"})
+            $("#cube1modal").children().css({left:pos.left+"px"});
+        })
 
+        $("#cube1").click(function(){
+            var pos=$(this).position();
+            $("#cube2modal").css({display:"block"});
+            $("#cube2modal").children().css({left: pos.left+"px"});
+        })
 
+        $("#cube2").click(function(){
+            var pos=$(this).position();
+            $("#cube3modal").css({display:"block"});
+            $("#cube3modal").children().css({left:pos.left+"px"});
+        })
 
+        $(".grey").click(function(){
+        $("#grey").css({display:"block"});
+        //console.log("grey");
+        })
 
+        $(".lightGrey").click(function(){
+        $("#lightGrey").css({display:"block"});
+        //console.log("lightgrey");
+        })
 
-
-//MODALS
-//         $("#cube").click(function(){
-//             var pos=$(this).position();
-//             console.log(pos);
-//             $("#cube1modal").css({display:"block"})
-//             $("#cube1modal").children().css({left: pos.left+"px"});
-//         })
-
-//         $("#cube1").click(function(){
-//             var pos=$(this).position();
-//             $("#cube2modal").css({display:"block"});
-//             $("#cube2modal").children().css({left: pos.left+"px"});
-//         })
-
-//         $("#cube2").click(function(){
-//             var pos=$(this).position();
-//             $("#cube3modal").css({display:"block"});
-//             $("#cube3modal").children().css({left:pos.left+"px"});
-//         })
-
-//         $(".grey").click(function(){
-//         $("#grey").css({display:"block"});
-//         //console.log("grey");
-//         })
-
-//         $(".lightGrey").click(function(){
-//         $("#lightGrey").css({display:"block"});
-//         //console.log("lightgrey");
-//         })
-
-// // when the user clicks on on close, it goes away
-//         $(".close").click(function(){
-//             $(this).parents(".modal").css({display:"none"});
-//             //console.log("close");
-//         })
+// when the user clicks on on close, it goes away
+        $(".close").click(function(){
+            $(this).parents(".modal").css({display:"none"});
+            //console.log("close");
+        })
 })
