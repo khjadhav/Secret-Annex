@@ -1,13 +1,11 @@
 
 $(document).ready(function() {
-    $(".black").click(function() {
-    //     $(".black").click(function(evt) {
-    //     $(this).zoomTo({targetsize:1.5, duration:1600, closeclick:false,});
-    //     evt.stopPropagation();
-    //     });
-    // $(".all").click(function() {
-    //     console.log("print");
-    // });
+
+  /* Zoom animation end Call back */
+  function endCb() {
+    // can be used to trigger any event once the zoom animation is triggered
+  }
+    $(".black").click(function(e) {
 
         anime({
             targets:'div.grey',
@@ -30,74 +28,80 @@ $(document).ready(function() {
             })
         $(this).parents('.all').children().addClass('expanded');
         //check if expanded is getting added to all the classes
-        console.log($(this).parents('.all').children());
-        $(".grey-cube").bind("mouseenter", function() {
-            if ($(this).parent().hasClass('notActive')){
-                $(this).parent().removeClass("notActive");
-            }
-            console.log(this);
-            if ($(this).hasClass("notActive") ){
-                $(this).removeClass("notActive");
-                $(this).siblings().removeClass("active");
-            }
-
-            $(this).addClass("active");
-            $(this).siblings().addClass('notActive');
-            $(this).parent().siblings().addClass("notActive");
-        });
-
-            $(".black-cube").bind("mouseenter", function() {
-
-        if ($(this).parent().hasClass('notActive')){
-            $(this).parent().removeClass("notActive");
-        }
-        console.log(this);
-        if ( $(this ).hasClass( "notActive" ) ){
-            $(this).removeClass("notActive");
-            $(this).siblings().removeClass("active");
-        }
-
-        $(this).addClass("active");
-        $(this).siblings().addClass('notActive');
-        $(this).parent().siblings().addClass("notActive");
-    });
-
-    $(".light-grey-cube").bind("mouseenter", function() {
-        if ($(this).parent().hasClass('notActive')){
-            $(this).parent().removeClass("notActive");
-        }
-        console.log(this);
-        if ( $(this).hasClass( "notActive" ) ){
-            $(this).removeClass("notActive");
-            $(this).siblings().removeClass("active");
-        }
-
-        $(this).addClass("active");
-        $(this).siblings().addClass('notActive');
-        $(this).parent().siblings().addClass("notActive");
-    });
+        //console.log($(this).parents('.all').children());
+        // $(this).zoomTo({root: $('.black .grey .lightGrey'),targetsize:1.2, duration:1600, closeclick:true,animationendcallback:endCb()});
+        // e.stopPropagation();
     })
 
-//for selecting individual floors on the grey floor
+    // $(document).click(function(e) {
+    //     e.stopPropagation();
+    //     $("body").zoomTo({root: $('.black .grey .lightGrey'),targetsize:0,duration:2600});
+    // });
 
-// MODALS
+    //for selecting individual floors on the grey floor
+
+    $(document).on( "mouseenter", ".expanded .grey-cube", function() {
+      if ($(this).parent().hasClass('notActive')){
+          $(this).parent().removeClass("notActive");
+      }
+      console.log(this);
+      if ($(this).hasClass("notActive") ){
+          $(this).removeClass("notActive");
+          $(this).siblings().removeClass("active");
+      }
+
+      $(this).addClass("active");
+      $(this).siblings().addClass('notActive');
+      $(this).parent().siblings().addClass("notActive");
+    });
+
+    //for selecting individual floors on the black floor
+    $(document).on( "mouseenter", ".expanded .black-cube", function() {
+      if ($(this).parent().hasClass('notActive')){
+          $(this).parent().removeClass("notActive");
+      }
+      console.log(this);
+      if ( $(this ).hasClass( "notActive" ) ){
+          $(this).removeClass("notActive");
+          $(this).siblings().removeClass("active");
+      }
+
+      $(this).addClass("active");
+      $(this).siblings().addClass('notActive');
+      $(this).parent().siblings().addClass("notActive");
+    });
+
+    //for selecting individual floors on the light grey floor
+    $(document).on( "mouseenter", ".expanded .light-grey-cube", function() {
+      if ($(this).parent().hasClass('notActive')){
+          $(this).parent().removeClass("notActive");
+      }
+      console.log(this);
+      if ( $(this).hasClass( "notActive" ) ){
+          $(this).removeClass("notActive");
+          $(this).siblings().removeClass("active");
+      }
+
+      $(this).addClass("active");
+      $(this).siblings().addClass('notActive');
+      $(this).parent().siblings().addClass("notActive");
+    });
+
+
+//when the user clicks on an item open the modal
         $("#cube").click(function(){
-            var pos=$(this).position();
-            console.log(pos);
-            $("#cube1modal").css({display:"block"})
-            $("#cube1modal").children().css({left:pos.left+"px"});
+          var pos=$(this).position();
+          var width=$(document).width();
+          console.log(pos);
+          $("#cube1modal").css({display:"block", left:width-pos.left+"px"});
         })
 
         $("#cube1").click(function(){
-            var pos=$(this).position();
-            $("#cube2modal").css({display:"block"});
-            $("#cube2modal").children().css({left: pos.left+"px"});
+          $("#cube2modal").css({display:"block"});
         })
 
         $("#cube2").click(function(){
-            var pos=$(this).position();
-            $("#cube3modal").css({display:"block"});
-            $("#cube3modal").children().css({left:pos.left+"px"});
+          $("#cube3modal").css({display:"block"});
         })
 
         $(".grey").click(function(){
@@ -115,4 +119,5 @@ $(document).ready(function() {
             $(this).parents(".modal").css({display:"none"});
             //console.log("close");
         })
+
 })
