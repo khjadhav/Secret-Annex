@@ -1,9 +1,11 @@
+
 #cube{
+    width:80%;
     position: relative;
     z-index: 40;
 }
 
-#cube1{
+/*#cube1{
     position: relative;
     z-index: 40;
     margin-left:-6px;
@@ -15,18 +17,22 @@
     margin-left:-256px;
     padding-bottom: 50px;
 }
+*/
 
 #cube3{
+    width:80%;
     position: relative;
     z-index: 20;
-    margin-top:-150px;
+    margin-top:-290px;
+    margin-left:89px;
 }
 
 #cube4{
+    width:60%;
     position: relative;
     z-index: 20;
-    margin-top:-150px;
-    margin-left:-6px;
+    margin-top:-244px;
+    margin-left:11px;
 }
 
 #cube5{
