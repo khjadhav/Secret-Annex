@@ -1,38 +1,25 @@
 
 #cube{
-    width:80%;
     position: relative;
     z-index: 40;
+    margin-left:5px;
 }
 
-/*#cube1{
-    position: relative;
-    z-index: 40;
-    margin-left:-6px;
-}
-
-#cube2{
-    position: relative;
-    z-index: 30;
-    margin-left:-256px;
-    padding-bottom: 50px;
-}
-*/
 
 #cube3{
-    width:80%;
+/*    width:90%;*/
     position: relative;
     z-index: 20;
     margin-top:-290px;
-    margin-left:89px;
+    margin-left:132px;
 }
 
 #cube4{
-    width:60%;
+/*    width:72.5%;*/
     position: relative;
     z-index: 20;
-    margin-top:-244px;
-    margin-left:11px;
+    margin-top:-248px;
+    margin-left:26px;
 }
 
 #cube5{
@@ -70,7 +57,7 @@
 }
 
 .all{
-  width: 350px;
+  width: 650px;
   margin: auto auto;
 }
 
@@ -94,11 +81,7 @@
 
 
 .notActive{
-    img {
-  -webkit-filter: grayscale(1);
-  filter: grayscale(1);
-}
-    opacity:0.3;
+    opacity:0.2;
 }
 
 .zoomModal{
@@ -109,18 +92,15 @@
 
 .modal {
     display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
+    position: absolute; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+/*    padding-top: 100px;  Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
     height: 100%; /* Full height */
     overflow: auto; /* Enable scroll if needed */
     z-index: 50;
-/*    background-color: rgb(0,0,0); /* Fallback color */
-/*    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-
 }
 
 /* Modal Content */

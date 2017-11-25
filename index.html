@@ -14,18 +14,43 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
         <script src="main.js"></script>
 
-    <div class="all-wrapper">
+<!--     <div class="all-wrapper">
       <div class="all">
           <div class="black" data-targetsize="1"  data-closeclick="true" data-duration="1600" data-easing="ease-in-out">
-              <img  class = "black-cube " id="cube"  src="assets/roof.png" alt="black">
+              <img  class = "black-cube" id="cube"  src="assets/level 1.png" alt="black">
           </div>
 
           <div class="grey" >
-              <img class = "grey-cube zoomTarget" data-targetsize="1"  data-closeclick="true" data-duration="1600" data-easing="ease-in-out" id="cube3" src="assets/floor1_room2.png" alt="grey">
-              <img class = "grey-cube zoomTarget" data-targetsize="1"  data-closeclick="true" data-duration="1600" data-easing="ease-in-out" id="cube4" src="assets/floor1_room1.png" alt="grey">
+              <img class = "grey-cube" data-targetsize="1"  data-closeclick="true" data-duration="1600" data-easing="ease-in-out" id="cube3" src="assets/level 2.png" alt="grey">
+              <img class = "grey-cube" data-targetsize="1"  data-closeclick="true" data-duration="1600" data-easing="ease-in-out" id="cube4" src="assets/level 3.png" alt="grey">
           </div>
 
-          <div class="lightGrey zoomTarget" data-targetsize="1" data-closeclick="true" data-duration="1600" data-easing="ease-in-out">
+          <div class="lightGrey" data-targetsize="1" data-closeclick="true" data-duration="1600" data-easing="ease-in-out">
+              <img class = "light-grey-cube" id="cube6" src="assets/level 1.png" alt="grey">
+              <img class = "light-grey-cube" id="cube7" src="assets/level 2.png" alt="grey">
+              <img class = "light-grey-cube" id="cube8" src="assets/level 3.png" alt="grey">
+          </div>
+      </div>
+    </div> -->
+
+        <div class="all-wrapper">
+      <div class="all">
+          <div class="black">
+              <img  class = "black-cube" id="cube"  src="assets/roof.svg" alt="black">
+          </div>
+
+          <div class="grey" >
+              <img class = "grey-cube zoomTarget" data-targetsize="1"  data-closeclick="true" data-duration="1600" data-easing="ease-in-out" id="cube3" src="assets/floor1_room2.svg" alt="grey">
+              <div id="cube1modal" class="modal"><!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p>This is cube1</p>
+                </div>
+              </div>
+              <img class = "grey-cube zoomTarget" data-targetsize="1"  data-closeclick="true" data-duration="1600" data-easing="ease-in-out"  id="cube4" src="assets/floor1_room1.svg" alt="grey">
+          </div>
+
+          <div class="lightGrey">
               <img class = "light-grey-cube" id="cube6" src="assets/level 1.png" alt="grey">
               <img class = "light-grey-cube" id="cube7" src="assets/level 2.png" alt="grey">
               <img class = "light-grey-cube" id="cube8" src="assets/level 3.png" alt="grey">

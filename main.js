@@ -27,20 +27,8 @@ $(document).ready(function() {
                 ]
             })
         $(this).parents('.all').children().addClass('expanded');
-        //check if expanded is getting added to all the classes
-        //console.log($(this).parents('.all').children());
-        // $(this).zoomTo({root: $('.black .grey .lightGrey'),targetsize:1.2, duration:1600, closeclick:true,animationendcallback:endCb()});
-        // e.stopPropagation();
-    })
 
-    // $(document).click(function(e) {
-    //     e.stopPropagation();
-    //     $("body").zoomTo({root: $('.black .grey .lightGrey'),targetsize:0,duration:2600});
-    // });
-
-    //for selecting individual floors on the grey floor
-
-    $(document).on( "mouseenter", ".expanded .grey-cube", function() {
+      $(document).on( "mouseenter", ".expanded .grey-cube", function() {
       if ($(this).parent().hasClass('notActive')){
           $(this).parent().removeClass("notActive");
       }
@@ -53,6 +41,10 @@ $(document).ready(function() {
       $(this).addClass("active");
       $(this).siblings().addClass('notActive');
       $(this).parent().siblings().addClass("notActive");
+
+      if ($(this).siblings().hasClass("modal")){
+        $("#cube1modal").css({opacity:"1"});
+      }
     });
 
     //for selecting individual floors on the black floor
@@ -69,6 +61,7 @@ $(document).ready(function() {
       $(this).addClass("active");
       $(this).siblings().addClass('notActive');
       $(this).parent().siblings().addClass("notActive");
+
     });
 
     //for selecting individual floors on the light grey floor
@@ -86,14 +79,24 @@ $(document).ready(function() {
       $(this).siblings().addClass('notActive');
       $(this).parent().siblings().addClass("notActive");
     });
+  })
+
+    // $(document).click(function(e) {
+    //     e.stopPropagation();
+    //     $("body").zoomTo({root: $('.black .grey .lightGrey'),targetsize:0,duration:2600});
+    // });
+
+    //for selecting individual floors on the grey floor
+
+
 
 
 //when the user clicks on an item open the modal
-        $("#cube").click(function(){
+        $("#cube3").click(function(){
           var pos=$(this).position();
           var width=$(document).width();
           console.log(pos);
-          $("#cube1modal").css({display:"block", left:width-pos.left+"px"});
+          $("#cube1modal").css({display:"block"});
         })
 
         $("#cube1").click(function(){
