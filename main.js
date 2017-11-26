@@ -112,6 +112,27 @@ $(document).ready(function() {
         $("#cube3").hover(cube3enter, cube3exit);
         $("#cube1modal").hover(cube3enter, cube3exit);
 
+
+        $("#cube4").hover(cube3enter, cube3exit);
+        $("#cube1modal").hover(cube3enter, cube3exit);
+
+
+        $("#cube5").hover(cube3enter, cube3exit);
+        $("#cube1modal").hover(cube3enter, cube3exit);
+
+
+        $("#cube6").hover(cube3enter, cube3exit);
+        $("#cube1modal").hover(cube3enter, cube3exit);
+
+
+        $("#cube7").hover(cube3enter, cube3exit);
+        $("#cube1modal").hover(cube3enter, cube3exit);
+
+
+
+
+
+
         $("#cube1").click(function(){
           $("#cube2modal").css({display:"block"});
         })

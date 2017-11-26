@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="280px" height="306px" viewBox="0 0 280 306" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>bathroom</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.177068758 36.9048217 68.4069116 0.251176855 199.980669 73.9903923 132.374613 113.562053"></polygon>
+        <radialGradient cx="52.3703039%" cy="38.513804%" fx="52.3703039%" fy="38.513804%" r="63.4015182%" gradientTransform="translate(0.523703,0.385138),scale(0.566096,1.000000),rotate(90.000000),translate(-0.523703,-0.385138)" id="radialGradient-3">
+            <stop stop-color="#8EA6BA" offset="0%"></stop>
+            <stop stop-color="#2D4564" offset="100%"></stop>
+        </radialGradient>
+        <polygon id="path-4" points="0.843878644 144.629762 266.442669 0 471.046419 114.260542 211.074728 266.179984"></polygon>
+        <radialGradient cx="76.7317951%" cy="0%" fx="76.7317951%" fy="0%" r="63.4015182%" gradientTransform="translate(0.767318,0.000000),scale(0.483907,1.000000),rotate(90.000000),translate(-0.767318,-0.000000)" id="radialGradient-6">
+            <stop stop-color="#0D2132" offset="0%"></stop>
+            <stop stop-color="#2D4564" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="76.7317951%" cy="0%" fx="76.7317951%" fy="0%" r="63.4015182%" gradientTransform="translate(0.767318,0.000000),scale(0.510923,1.000000),rotate(90.000000),translate(-0.767318,-0.000000)" id="radialGradient-7">
+            <stop stop-color="#0D2132" offset="0%"></stop>
+            <stop stop-color="#2D4564" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="4.24256437%" cy="29.5135616%" fx="4.24256437%" fy="29.5135616%" r="63.4015182%" gradientTransform="translate(0.042426,0.295136),scale(0.695375,1.000000),rotate(90.000000),translate(-0.042426,-0.295136)" id="radialGradient-8">
+            <stop stop-color="#0D2132" offset="0%"></stop>
+            <stop stop-color="#2D4564" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="4.24256437%" cy="29.5135616%" fx="4.24256437%" fy="29.5135616%" r="63.4015182%" gradientTransform="translate(0.042426,0.295136),scale(0.699279,1.000000),rotate(90.000000),translate(-0.042426,-0.295136)" id="radialGradient-9">
+            <stop stop-color="#0D2132" offset="0%"></stop>
+            <stop stop-color="#2D4564" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="76.7317951%" cy="0%" fx="76.7317951%" fy="0%" r="63.4015182%" gradientTransform="translate(0.767318,0.000000),scale(0.546551,1.000000),rotate(90.000000),translate(-0.767318,-0.000000)" id="radialGradient-10">
+            <stop stop-color="#0D2132" offset="0%"></stop>
+            <stop stop-color="#2D4564" offset="100%"></stop>
+        </radialGradient>
+        <polygon id="path-11" points="77.6977927 126.274709 145.406912 89.2511769 136.512741 0.50824912 0.802632105 79.118699"></polygon>
+        <polygon id="path-13" points="0.843878644 144.629762 266.442669 0 471.046419 114.260542 211.074728 266.179984"></polygon>
+        <polygon id="path-15" points="0.25665473 72.6784032 130.395396 0.736830214 136.0093 4.69223411 136.818681 110.369068 0.25665473 189.214217"></polygon>
+        <radialGradient cx="53.8354894%" cy="78.9787448%" fx="53.8354894%" fy="78.9787448%" r="73.9071051%" gradientTransform="translate(0.538355,0.789787),scale(0.967347,1.000000),rotate(96.795623),scale(1.000000,0.986484),translate(-0.538355,-0.789787)" id="radialGradient-17">
+            <stop stop-color="#C9607D" offset="0%"></stop>
+            <stop stop-color="#80647E" offset="54.9366231%"></stop>
+            <stop stop-color="#473C60" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="100%" cy="132.571945%" fx="100%" fy="132.571945%" r="99.8844069%" gradientTransform="translate(1.000000,1.325719),scale(0.555330,1.000000),rotate(90.000000),translate(-1.000000,-1.325719)" id="radialGradient-18">
+            <stop stop-color="#2F1E48" offset="0%"></stop>
+            <stop stop-color="#3F394C" offset="100%"></stop>
+        </radialGradient>
+        <linearGradient x1="50%" y1="0%" x2="33.2844558%" y2="81.1720736%" id="linearGradient-19">
+            <stop stop-color="#302346" offset="0%"></stop>
+            <stop stop-color="#97627D" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="135.144198%" cy="8.13891269%" fx="135.144198%" fy="8.13891269%" r="100%" gradientTransform="translate(1.351442,0.081389),scale(1.000000,0.541332),rotate(90.000000),translate(-1.351442,-0.081389)" id="radialGradient-20">
+            <stop stop-color="#CD769D" offset="0%"></stop>
+            <stop stop-color="#3F394C" offset="100%"></stop>
+        </radialGradient>
+        <path d="M48.1002069,145.232999 L86.9406282,124.200824 L87.4330882,2.2108823 L2.29793908,50.5833362 L2.29793908,152.274753 L15.6238808,159.130645 L21.7890781,159.480534 L22,159.366319 L22,94.5024 L48.1002069,80 L48.1002069,145.232999 Z" id="path-21"></path>
+        <linearGradient x1="100%" y1="0%" x2="31.6134397%" y2="77.9516255%" id="linearGradient-23">
+            <stop stop-color="#302346" offset="0%"></stop>
+            <stop stop-color="#614260" offset="61.8723714%"></stop>
+            <stop stop-color="#534258" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <radialGradient cx="100%" cy="132.571945%" fx="100%" fy="132.571945%" r="99.8844069%" gradientTransform="translate(1.000000,1.325719),scale(0.569970,1.000000),rotate(90.000000),translate(-1.000000,-1.325719)" id="radialGradient-24">
+            <stop stop-color="#2E2047" offset="0%"></stop>
+            <stop stop-color="#291E42" offset="99.1430166%"></stop>
+        </radialGradient>
+        <radialGradient cx="53.8354894%" cy="78.9787448%" fx="53.8354894%" fy="78.9787448%" r="73.9071051%" gradientTransform="translate(0.538355,0.789787),scale(1.000000,0.708595),rotate(94.669712),scale(1.000000,0.986484),translate(-0.538355,-0.789787)" id="radialGradient-25">
+            <stop stop-color="#C9607D" offset="0%"></stop>
+            <stop stop-color="#80647E" offset="54.9366231%"></stop>
+            <stop stop-color="#473C60" offset="100%"></stop>
+        </radialGradient>
+        <radialGradient cx="135.144198%" cy="9.77714611%" fx="135.144198%" fy="9.77714611%" r="98.3617666%" gradientTransform="translate(1.351442,0.097771),scale(1.000000,0.360076),rotate(90.000000),translate(-1.351442,-0.097771)" id="radialGradient-26">
+            <stop stop-color="#9A5782" offset="0%"></stop>
+            <stop stop-color="#3F394C" offset="100%"></stop>
+        </radialGradient>
+        <path d="M27,74.0449464 L33.4330882,70.6770655 L33.4330882,2.2108823 L3.05318017,19.2770676 L3.05318017,86.5816997 L8,83.991917 L8,23.5524871 L27,13 L27,74.0449464 Z" id="path-27"></path>
+        <radialGradient cx="-145.017195%" cy="62.5802532%" fx="-145.017195%" fy="62.5802532%" r="97.3381018%" gradientTransform="translate(-1.450172,0.625803),scale(1.000000,0.361515),rotate(90.000001),scale(1.000000,0.986484),translate(1.450172,-0.625803)" id="radialGradient-29">
+            <stop stop-color="#151731" offset="0%"></stop>
+            <stop stop-color="#8B4F6C" offset="54.4124681%"></stop>
+            <stop stop-color="#473C60" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Grids" transform="translate(-1888.000000, -960.000000)">
+            <g id="Group-26" transform="translate(1776.000000, 138.000000)">
+                <g id="floor-3" transform="translate(112.000000, 745.000000)">
+                    <g id="bathroom" transform="translate(0.000000, 77.000000)">
+                        <g id="bathroom-floor" transform="translate(80.000000, 192.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill="#D8D8D8" xlink:href="#path-1"></use>
+                            <g id="floor-1" mask="url(#mask-2)">
+                                <g transform="translate(-78.000000, -153.000000)">
+                                    <mask id="mask-5" fill="white">
+                                        <use xlink:href="#path-4"></use>
+                                    </mask>
+                                    <use id="Mask" stroke="none" fill="url(#radialGradient-3)" fill-rule="evenodd" xlink:href="#path-4"></use>
+                                    <polygon id="Mask-Copy" stroke="none" fill="url(#radialGradient-6)" fill-rule="evenodd" mask="url(#mask-5)" points="-8 235.880787 153.224264 149 219.673553 192.797348 58.0258371 259.172739"></polygon>
+                                    <polygon id="Mask-Copy-3" stroke="none" fill="url(#radialGradient-7)" fill-rule="evenodd" mask="url(#mask-5)" points="104.039039 313.689495 253.224264 213 319.673553 256.797348 158.025837 323.172739"></polygon>
+                                    <polygon id="Mask-Copy-5" stroke="none" fill="url(#radialGradient-8)" fill-rule="evenodd" mask="url(#mask-5)" points="235.239043 150.437024 373.224264 53 439.673553 96.7973476 333.170558 195.158549"></polygon>
+                                    <polygon id="Mask-Copy-6" stroke="none" fill="url(#radialGradient-9)" fill-rule="evenodd" opacity="0.300000012" mask="url(#mask-5)" points="195.31658 175.207234 205.166359 168.278658 248.59194 205.533012 228.51689 192.49261"></polygon>
+                                    <polygon id="Mask-Copy-4" stroke="none" fill="url(#radialGradient-10)" fill-rule="evenodd" mask="url(#mask-5)" points="39.2146659 286.066559 203.224264 213 230.654607 232.579255 103.733574 317.631773"></polygon>
+                                    <polygon id="Rectangle-6-Copy-4" stroke="none" fill="#040303" fill-rule="evenodd" opacity="0.699999988" mask="url(#mask-5)" points="143 68.9772271 223.216681 23 266 45.8188382 184.446087 93.1778625"></polygon>
+                                    <g id="Group" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" mask="url(#mask-5)">
+                                        <g transform="translate(249.406677, 132.193745) rotate(1.000000) translate(-249.406677, -132.193745) translate(8.906677, -7.306255)" id="Group-6">
+                                            <g transform="translate(226.982203, 140.474273) scale(1, -1) translate(-226.982203, -140.474273) translate(0.482203, 2.474273)">
+                                                <polygon id="Fill-21" fill="#0A0607" points="277.765471 274.665562 1.20927637 113.990234 0.442929819 114.448482 276.999124 275.12333"></polygon>
+                                                <polygon id="Fill-21-Copy" fill="#0A0607" points="278.02724 264.668989 1.47104586 103.99366 0.704699302 104.451909 277.260894 265.126757"></polygon>
+                                                <polygon id="Fill-21-Copy-3" fill="#0A0607" points="298.046564 264.192871 21.4903693 103.517542 20.7240227 103.97579 297.280217 264.650639"></polygon>
+                                                <polygon id="Fill-21-Copy-2" fill="#0A0607" points="298.308333 254.196297 21.7521388 93.5209688 20.9857922 93.9792172 297.541987 254.654065"></polygon>
+                                                <polygon id="Fill-21-Copy-7" fill="#0A0607" points="328.140991 260.97955 51.5847968 100.304221 50.8184503 100.76247 327.374645 261.437318"></polygon>
+                                                <polygon id="Fill-21-Copy-6" fill="#0A0607" points="328.402761 250.982976 51.8465663 90.307648 51.0802198 90.7658963 327.636414 251.440744"></polygon>
+                                                <polygon id="Fill-21-Copy-5" fill="#0A0607" points="348.422084 250.506858 71.8658898 89.8315296 71.0995432 90.2897779 347.655738 250.964626"></polygon>
+                                                <polygon id="Fill-21-Copy-4" fill="#0A0607" points="348.683854 240.510285 72.1276593 79.8349564 71.3613127 80.2932047 347.917507 240.968053"></polygon>
+                                                <polygon id="Fill-21-Copy-11" fill="#0A0607" points="368.677 241.033824 92.1208058 80.3584953 91.3544592 80.8167437 367.910654 241.491592"></polygon>
+                                                <polygon id="Fill-21-Copy-10" fill="#0A0607" points="368.93877 231.037251 92.3825752 70.3619221 91.6162287 70.8201704 368.172423 231.495019"></polygon>
+                                                <polygon id="Fill-21-Copy-9" fill="#0A0607" points="388.958093 230.561132 112.401899 69.8858037 111.635552 70.344052 388.191747 231.0189"></polygon>
+                                                <polygon id="Fill-21-Copy-8" fill="#0A0607" points="389.219863 220.564559 112.663668 59.8892305 111.897322 60.3474788 388.453516 221.022327"></polygon>
+                                                <polygon id="Fill-21-Copy-15" fill="#0A0607" points="392.454427 211.646174 115.898233 50.9708454 115.131886 51.4290937 391.688081 212.103942"></polygon>
+                                                <polygon id="Fill-21-Copy-14" fill="#0A0607" points="392.716197 201.649601 116.160002 40.9742721 115.393656 41.4325205 391.94985 202.107369"></polygon>
+                                                <polygon id="Fill-21-Copy-13" fill="#0A0607" points="412.73552 201.173482 136.179326 40.4981538 135.412979 40.9564021 411.969174 201.63125"></polygon>
+                                                <polygon id="Fill-21-Copy-12" fill="#0A0607" points="412.99729 191.176909 136.441095 30.5015805 135.674749 30.9598289 412.230943 191.634677"></polygon>
+                                                <polygon id="Fill-21-Copy-20" fill="#0A0607" points="429.219863 190.564559 152.663668 29.8892305 151.897322 30.3474788 428.453516 191.022327"></polygon>
+                                                <polygon id="Fill-21-Copy-19" fill="#0A0607" points="432.454427 181.646174 155.898233 20.9708454 155.131886 21.4290937 431.688081 182.103942"></polygon>
+                                                <polygon id="Fill-21-Copy-18" fill="#0A0607" points="432.716197 171.649601 156.160002 10.9742721 155.393656 11.4325205 431.94985 172.107369"></polygon>
+                                                <polygon id="Fill-21-Copy-17" fill="#0A0607" points="452.73552 171.173482 176.179326 10.4981538 175.412979 10.9564021 451.969174 171.63125"></polygon>
+                                                <polygon id="Fill-21-Copy-16" fill="#0A0607" points="452.99729 161.176909 176.441095 0.501580537 175.674749 0.959828862 452.230943 161.634677"></polygon>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="bathroom-floor" transform="translate(3.000000, 103.000000)">
+                            <mask id="mask-12" fill="white">
+                                <use xlink:href="#path-11"></use>
+                            </mask>
+                            <use id="Mask" fill="#D8D8D8" xlink:href="#path-11"></use>
+                            <g id="floor-1" mask="url(#mask-12)">
+                                <g transform="translate(-1.000000, -64.000000)">
+                                    <mask id="mask-14" fill="white">
+                                        <use xlink:href="#path-13"></use>
+                                    </mask>
+                                    <use id="Mask" stroke="none" fill="url(#radialGradient-3)" fill-rule="evenodd" xlink:href="#path-13"></use>
+                                    <polygon id="Mask-Copy" stroke="none" fill="url(#radialGradient-6)" fill-rule="evenodd" mask="url(#mask-14)" points="-8 235.880787 153.224264 149 219.673553 192.797348 58.0258371 259.172739"></polygon>
+                                    <polygon id="Mask-Copy-3" stroke="none" fill="url(#radialGradient-7)" fill-rule="evenodd" mask="url(#mask-14)" points="104.039039 313.689495 253.224264 213 319.673553 256.797348 158.025837 323.172739"></polygon>
+                                    <polygon id="Mask-Copy-5" stroke="none" fill="url(#radialGradient-8)" fill-rule="evenodd" mask="url(#mask-14)" points="235.239043 150.437024 373.224264 53 439.673553 96.7973476 333.170558 195.158549"></polygon>
+                                    <polygon id="Mask-Copy-6" stroke="none" fill="url(#radialGradient-9)" fill-rule="evenodd" opacity="0.300000012" mask="url(#mask-14)" points="195.31658 175.207234 205.166359 168.278658 248.59194 205.533012 228.51689 192.49261"></polygon>
+                                    <polygon id="Mask-Copy-4" stroke="none" fill="url(#radialGradient-10)" fill-rule="evenodd" mask="url(#mask-14)" points="39.2146659 286.066559 203.224264 213 230.654607 232.579255 103.733574 317.631773"></polygon>
+                                    <polygon id="Rectangle-6-Copy-4" stroke="none" fill="#040303" fill-rule="evenodd" opacity="0.699999988" mask="url(#mask-14)" points="143 68.9772271 223.216681 23 266 45.8188382 184.446087 93.1778625"></polygon>
+                                    <g id="Group" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" mask="url(#mask-14)">
+                                        <g transform="translate(249.406677, 132.193745) rotate(1.000000) translate(-249.406677, -132.193745) translate(8.906677, -7.306255)" id="Group-6">
+                                            <g transform="translate(226.982203, 140.474273) scale(1, -1) translate(-226.982203, -140.474273) translate(0.482203, 2.474273)">
+                                                <polygon id="Fill-21" fill="#0A0607" points="277.765471 274.665562 1.20927637 113.990234 0.442929819 114.448482 276.999124 275.12333"></polygon>
+                                                <polygon id="Fill-21-Copy" fill="#0A0607" points="278.02724 264.668989 1.47104586 103.99366 0.704699302 104.451909 277.260894 265.126757"></polygon>
+                                                <polygon id="Fill-21-Copy-3" fill="#0A0607" points="298.046564 264.192871 21.4903693 103.517542 20.7240227 103.97579 297.280217 264.650639"></polygon>
+                                                <polygon id="Fill-21-Copy-2" fill="#0A0607" points="298.308333 254.196297 21.7521388 93.5209688 20.9857922 93.9792172 297.541987 254.654065"></polygon>
+                                                <polygon id="Fill-21-Copy-7" fill="#0A0607" points="328.140991 260.97955 51.5847968 100.304221 50.8184503 100.76247 327.374645 261.437318"></polygon>
+                                                <polygon id="Fill-21-Copy-6" fill="#0A0607" points="328.402761 250.982976 51.8465663 90.307648 51.0802198 90.7658963 327.636414 251.440744"></polygon>
+                                                <polygon id="Fill-21-Copy-5" fill="#0A0607" points="348.422084 250.506858 71.8658898 89.8315296 71.0995432 90.2897779 347.655738 250.964626"></polygon>
+                                                <polygon id="Fill-21-Copy-4" fill="#0A0607" points="348.683854 240.510285 72.1276593 79.8349564 71.3613127 80.2932047 347.917507 240.968053"></polygon>
+                                                <polygon id="Fill-21-Copy-11" fill="#0A0607" points="368.677 241.033824 92.1208058 80.3584953 91.3544592 80.8167437 367.910654 241.491592"></polygon>
+                                                <polygon id="Fill-21-Copy-10" fill="#0A0607" points="368.93877 231.037251 92.3825752 70.3619221 91.6162287 70.8201704 368.172423 231.495019"></polygon>
+                                                <polygon id="Fill-21-Copy-9" fill="#0A0607" points="388.958093 230.561132 112.401899 69.8858037 111.635552 70.344052 388.191747 231.0189"></polygon>
+                                                <polygon id="Fill-21-Copy-8" fill="#0A0607" points="389.219863 220.564559 112.663668 59.8892305 111.897322 60.3474788 388.453516 221.022327"></polygon>
+                                                <polygon id="Fill-21-Copy-15" fill="#0A0607" points="392.454427 211.646174 115.898233 50.9708454 115.131886 51.4290937 391.688081 212.103942"></polygon>
+                                                <polygon id="Fill-21-Copy-14" fill="#0A0607" points="392.716197 201.649601 116.160002 40.9742721 115.393656 41.4325205 391.94985 202.107369"></polygon>
+                                                <polygon id="Fill-21-Copy-13" fill="#0A0607" points="412.73552 201.173482 136.179326 40.4981538 135.412979 40.9564021 411.969174 201.63125"></polygon>
+                                                <polygon id="Fill-21-Copy-12" fill="#0A0607" points="412.99729 191.176909 136.441095 30.5015805 135.674749 30.9598289 412.230943 191.634677"></polygon>
+                                                <polygon id="Fill-21-Copy-20" fill="#0A0607" points="429.219863 190.564559 152.663668 29.8892305 151.897322 30.3474788 428.453516 191.022327"></polygon>
+                                                <polygon id="Fill-21-Copy-19" fill="#0A0607" points="432.454427 181.646174 155.898233 20.9708454 155.131886 21.4290937 431.688081 182.103942"></polygon>
+                                                <polygon id="Fill-21-Copy-18" fill="#0A0607" points="432.716197 171.649601 156.160002 10.9742721 155.393656 11.4325205 431.94985 172.107369"></polygon>
+                                                <polygon id="Fill-21-Copy-17" fill="#0A0607" points="452.73552 171.173482 176.179326 10.4981538 175.412979 10.9564021 451.969174 171.63125"></polygon>
+                                                <polygon id="Fill-21-Copy-16" fill="#0A0607" points="452.99729 161.176909 176.441095 0.501580537 175.674749 0.959828862 452.230943 161.634677"></polygon>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="bathroom-back-wall">
+                            <mask id="mask-16" fill="white">
+                                <use xlink:href="#path-15"></use>
+                            </mask>
+                            <use id="Mask" fill="#D8D8D8" xlink:href="#path-15"></use>
+                            <g id="back-wall-" mask="url(#mask-16)">
+                                <g transform="translate(2.000000, -76.000000)">
+                                    <polygon id="Rectangle-3-Copy" fill="url(#radialGradient-17)" transform="translate(134.814785, 134.267595) scale(-1, 1) translate(-134.814785, -134.267595) " points="263.316581 261.674143 266.521942 259.43039 266.521942 151.461538 3.10762819 6.86104621 3.10762819 115.782534"></polygon>
+                                    <polygon id="Rectangle-3-Copy" fill="url(#radialGradient-18)" points="0.985940637 147.423429 7.45779396 151.19621 272.881788 3.8877536 266.611903 0.204196279"></polygon>
+                                    <polygon id="Path-3" fill="url(#linearGradient-19)" points="134.045535 100.708234 62 197.103584 152.66399 189.035977"></polygon>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="bathroom-wall-and-entrance" transform="translate(62.000000, 68.000000)">
+                            <g id="Container">
+                                <polygon id="Rectangle-3" fill="#2E2047" points="3.25801048 50.8449369 88.4330882 2.08302385 85.7936979 0.412763328 0.028286573 48.6951559"></polygon>
+                                <mask id="mask-22" fill="white">
+                                    <use xlink:href="#path-21"></use>
+                                </mask>
+                                <use id="Mask" fill="url(#radialGradient-20)" xlink:href="#path-21"></use>
+                                <polygon id="Path-8-Copy-4" fill="url(#linearGradient-23)" opacity="0.900000036" mask="url(#mask-22)" points="1.40002441 131.997181 20.8911634 160.740321 87.5351735 124.358482 87.5351735 18"></polygon>
+                            </g>
+                            <g id="DOOR" transform="translate(35.000000, 118.000000) scale(-1, 1) translate(-35.000000, -118.000000) translate(18.000000, 74.000000)">
+                                <polyline id="Fill-138" fill="#BF687F" points="3.48910345 71.9159467 4.91475862 71.5217067 4.91475862 6.55776 3.48910345 6.14592 3.48910345 71.9159467"></polyline>
+                                <polyline id="Fill-137" fill="#2A1B47" points="28.5893103 86.4183467 30.9353103 87.7735467 30.9353103 19.9067733 0.915655172 2.07914667 0.915655172 70.42816 3.48910345 71.9159467 3.48910345 6.14592 28.5893103 20.64832 28.5893103 86.4183467"></polyline>
+                                <polyline id="Fill-139" fill="#77465C" points="30.9353103 87.7735467 33.1945517 86.4922667 33.1945517 18.7170133 3.0517931 0.885866667 0.915655172 2.07914667 30.9353103 19.9067733 30.9353103 87.7735467"></polyline>
+                                <polyline id="Fill-140" fill="#BF687F" points="30.9353103 19.9067733 33.1945517 18.7170133 33.1945517 86.4922667 30.9353103 87.7735467 30.9353103 19.9067733"></polyline>
+                            </g>
+                        </g>
+                        <g id="bathroom-wall" transform="translate(148.000000, 84.000000)">
+                            <polygon id="Rectangle-3-Copy" fill="url(#radialGradient-24)" transform="translate(66.101042, 38.235827) scale(-1, 1) translate(-66.101042, -38.235827) " points="3.60390759 75.8301772 132.059563 2.29702719 128.992862 0.641477287 0.142521147 73.9604853"></polygon>
+                            <path d="M103.302138,168.855609 L103.302138,104.255253 L77.201931,89.7528533 L77.201931,153.6022 L0.142521147,108.567358 L0.142521147,99.3690103 L0.142521147,49.7540122 L0.142521147,2.28803066 L128.681555,75.5604845 L128.681555,183.687776 L103.302138,168.855609 Z M31.99256,29.5317905 L31.98944,48.3609905 L45.06848,56.0075905 L45.07472,37.1783905 L31.99256,29.5317905 Z" id="Combined-Shape" fill="url(#radialGradient-25)"></path>
+                            <polygon id="Rectangle-3-Copy" fill="#291E42" transform="translate(130.292576, 128.809600) scale(-1, 1) translate(-130.292576, -128.809600) " points="131.900596 75.6263839 131.900596 183.738352 128.684556 181.97194 128.684556 73.8808469"></polygon>
+                        </g>
+                        <g id="protrusion" transform="translate(154.000000, 131.000000)">
+                            <path d="M32.3710937,23.3632813 L39.9927932,19.0205695 C39.9927932,20.0325695 39.9927932,21.0982789 39.9927932,21.1456791 L32.3450938,25.7572813 L0.0078125,6.62850682 L0.0078125,4.296875 L32.3710937,23.3632813 Z" id="Fill-2924" fill="#2A1B47"></path>
+                            <polyline id="Fill-2927" fill="#5E3255" opacity="0.800000012" points="0 4.29 32.3766135 23.37 40 19.02 7.59301443 0 0 4.29"></polyline>
+                        </g>
+                        <g id="small-window" transform="translate(173.500000, 118.500000) scale(-1, 1) translate(-173.500000, -118.500000) translate(155.000000, 98.000000)">
+                            <polyline id="Fill-1372" fill="#77465C" points="36.09416 23.7785476 20.0168 33.2215619 20.0168 30.0075905 33.09584 22.3609905 36.09416 23.7785476"></polyline>
+                            <polygon id="Fill-1372" fill="#7AC4B0" points="20.0065625 11.1815476 17.0409375 10.0387277 33.4113905 0.447841587 36.0979635 1.72870535"></polygon>
+                            <polygon id="Fill-1373" fill="#2A1B47" points="36.09416 23.7785476 33.09584 22.3609905 33.09272 3.53179048 36.08792 1.73537619"></polygon>
+                            <polyline id="Fill-1374" fill="#5FC0CA" points="33.09272 3.53179048 33.09584 22.3609905 20.0168 30.0075905 20.01056 11.1783905 33.09272 3.53179048"></polyline>
+                            <polyline id="Fill-1375" fill="#DBE0B6" points="29.67944 20.3088476 29.67632 5.5302619 20.01056 11.1783905 29.67944 20.3088476"></polyline>
+                            <polyline id="Fill-1376" fill="#DBE0B6" points="20.01056 13.3694476 28.24736 21.1486476 26.81216 21.9852905 20.01368 15.6457476 20.01056 13.3694476"></polyline>
+                            <polyline id="Fill-1377" fill="#1F91AD" points="31.14896 21.224419 31.14584 4.67151905 33.09272 3.53179048 33.09584 22.3609905 20.0168 30.0075905 20.0168 27.7312905 31.14896 21.224419"></polyline>
+                            <polyline id="Fill-1374-Copy" fill="#5FC0CA" points="13.09272 13.5317905 13.09584 32.3609905 0.0168 40.0075905 0.01056 21.1783905 13.09272 13.5317905"></polyline>
+                            <polyline id="Fill-1375-Copy" fill="#DBE0B6" points="9.67944 30.3088476 9.67632 15.5302619 0.01056 21.1783905 9.67944 30.3088476"></polyline>
+                            <polyline id="Fill-1376-Copy" fill="#DBE0B6" points="0.01056 23.3694476 8.24736 31.1486476 6.81216 31.9852905 0.01368 25.6457476 0.01056 23.3694476"></polyline>
+                            <polyline id="Fill-1377-Copy" fill="#1F91AD" points="11.14896 31.224419 11.14584 14.671519 13.09272 13.5317905 13.09584 32.3609905 0.0168 40.0075905 0.0168 37.7312905 11.14896 31.224419"></polyline>
+                            <polygon id="Fill-1373" fill="#2A1B47" points="20.0334908 33.1983838 17.0351708 31.7808267 17.0351708 10.0381369 20.010625 11.1774368"></polygon>
+                            <polygon id="Fill-1372" fill="#BF687F" points="20.0065625 11.1815476 20.0065625 13.097408 36.0979635 3.53367117 36.0979635 1.72870535"></polygon>
+                            <polygon id="Fill-1372" fill="#BF687F" points="20.0592526 31.2678349 20.0592526 33.1836953 36.0983747 23.762653 36.0983747 21.9576872"></polygon>
+                            <polygon id="Fill-1372" fill="#BF687F" points="36.0983747 3.44336933 34.722793 4.28642089 34.722793 22.8965418 36.0983747 21.9576872"></polygon>
+                            <polygon id="Fill-1372" fill="#BF687F" points="20.010625 33.2162261 21.4112768 32.4055017 21.4112768 10.3481131 20.010625 11.169215"></polygon>
+                            <polygon id="Fill-1372" fill="#77465C" points="20.0065625 11.1815476 17.0409375 10.0387277 33.4113905 0.447841587 36.0979635 1.72870535"></polygon>
+                        </g>
+                        <g id="small-window" transform="translate(186.000000, 127.000000) scale(-1, 1) translate(-186.000000, -127.000000) translate(176.000000, 110.000000)">
+                            <polyline id="Fill-1372" fill="#77465C" points="19.09416 23.7785476 3.0168 33.2215619 3.0168 30.0075905 16.09584 22.3609905 19.09416 23.7785476"></polyline>
+                            <polygon id="Fill-1372" fill="#7AC4B0" points="3.0065625 11.1815476 0.0409375 10.0387277 16.4113905 0.447841587 19.0979635 1.72870535"></polygon>
+                            <polygon id="Fill-1373" fill="#2A1B47" points="19.09416 23.7785476 16.09584 22.3609905 16.09272 3.53179048 19.08792 1.73537619"></polygon>
+                            <polyline id="Fill-1377" fill="#1F91AD" points="14.14896 21.224419 14.14584 4.67151905 16.09272 3.53179048 16.09584 22.3609905 3.0168 30.0075905 3.0168 27.7312905 14.14896 21.224419"></polyline>
+                            <polygon id="Fill-1373" fill="#2A1B47" points="3.03349078 33.1983838 0.0351707812 31.7808267 0.0351707812 10.0381369 3.010625 11.1774368"></polygon>
+                            <polygon id="Fill-1372" fill="#BF687F" points="3.0065625 11.1815476 3.0065625 13.097408 19.0979635 3.53367117 19.0979635 1.72870535"></polygon>
+                            <polygon id="Fill-1372" fill="#BF687F" points="3.05925261 31.2678349 3.05925261 33.1836953 19.0983747 23.762653 19.0983747 21.9576872"></polygon>
+                            <polygon id="Fill-1372" fill="#BF687F" points="19.0983747 3.44336933 17.722793 4.28642089 17.722793 22.8965418 19.0983747 21.9576872"></polygon>
+                            <polygon id="Fill-1372" fill="#BF687F" points="3.010625 33.2162261 4.41127681 32.4055017 4.41127681 10.3481131 3.010625 11.169215"></polygon>
+                            <polygon id="Fill-1372" fill="#77465C" points="3.0065625 11.1815476 0.0409375 10.0387277 16.4113905 0.447841587 19.0979635 1.72870535"></polygon>
+                        </g>
+                        <g transform="translate(168.000000, 168.000000)">
+                            <g id="bathroom-door" transform="translate(54.000000, 0.599976)">
+                                <polyline id="Fill-138" fill="#2A1B47" points="3.48910345 71.9159467 4.91475862 71.5217067 4.91475862 6.55776 3.48910345 6.14592 3.48910345 71.9159467"></polyline>
+                                <polyline id="Fill-137" fill="#A66173" points="28.5893103 86.4183467 30.9353103 87.7735467 30.9353103 19.9067733 0.915655172 2.07914667 0.915655172 70.42816 3.48910345 71.9159467 3.48910345 6.14592 28.5893103 20.64832 28.5893103 86.4183467"></polyline>
+                                <polyline id="Fill-139" fill="#77465C" points="30.9353103 87.7735467 33.1945517 86.4922667 33.1945517 18.7170133 3.0517931 0.885866667 0.915655172 2.07914667 30.9353103 19.9067733 30.9353103 87.7735467"></polyline>
+                                <polyline id="Fill-140" fill="#2A1B47" points="30.9353103 19.9067733 33.1945517 18.7170133 33.1945517 86.4922667 30.9353103 87.7735467 30.9353103 19.9067733"></polyline>
+                            </g>
+                            <g id="Bathroom-wall-door" transform="translate(0.000000, 16.000000)">
+                                <polygon id="Rectangle-3" fill="#291E42" points="2.94965156 19.3478009 33.4330882 2.08302385 30.7936979 0.412763328 0.557248493 17.5141726"></polygon>
+                                <polygon id="Rectangle-3" fill="#3C2E52" points="2.99250072 19.3478009 2.99250072 86.5564848 0.600097656 84.8832313 0.600097656 17.5141726"></polygon>
+                                <polygon id="Rectangle-3" fill="#3C2E52" points="27.0260655 6.71064707 27.0260655 74.0987811 25.5572485 73.2986402 25.5572485 8.66476931"></polygon>
+                                <mask id="mask-28" fill="white">
+                                    <use xlink:href="#path-27"></use>
+                                </mask>
+                                <use id="Mask" fill="url(#radialGradient-26)" xlink:href="#path-27"></use>
+                                <polygon id="Path-8-Copy-4" fill="url(#linearGradient-23)" opacity="0.900000036" mask="url(#mask-28)" points="-36 91.9971805 -16.508861 120.740321 50.1351491 84.3584822 50.1351491 -22"></polygon>
+                            </g>
+                            <g id="Bathroom-wall-door" transform="translate(47.599976, 61.299988) scale(-1, 1) translate(-47.599976, -61.299988) translate(30.599976, 17.799988)">
+                                <polygon id="Rectangle-3" fill="#291E42" points="2.94965156 19.3478009 33.9857515 1.80081892 31.3463612 0.130558402 0.557248493 17.5141726"></polygon>
+                                <polygon id="Rectangle-3" fill="#6A4F78" points="2.94965156 19.3478009 2.94965156 86.5564848 0.557248493 84.8832313 0.557248493 17.5141726"></polygon>
+                                <polygon id="Path-8" fill="url(#radialGradient-29)" points="2.9320344 19.3390423 2.9320344 86.581064 33.4330882 70.6770655 33.4330882 2.2108823"></polygon>
+                            </g>
+                            <g id="stand" transform="translate(40.000000, 43.000000)">
+                                <polygon id="Fill-166" fill="#EFAD76" points="8.16312195 17.9463514 8.16312195 55.9764865 9.80019512 54.9803206 9.80019512 16.5322708"></polygon>
+                                <polygon id="Fill-167" fill="#9F6C40" points="8.16312195 17.9463514 8.16312195 55.9764865 6.32663415 54.872973 6.32663415 16.7974324"></polygon>
+                                <polygon id="Fill-168" fill="#C1F4F8" points="10.8952195 0.131756757 15.7073171 3.01621622 4.88858537 9.5322973 0.0647804878 6.63608108"></polygon>
+                                <polygon id="Fill-169" fill="#1B2E43" points="0.0433170732 20.887973 4.85502439 23.7728378 4.86595122 9.52054054 0.0433170732 6.63608108"></polygon>
+                                <polygon id="Fill-170" fill="#5989B0" points="15.6515122 17.3256757 4.85502439 23.7728378 4.86595122 9.52054054 15.7073171 3.02797297"></polygon>
+                                <polyline id="Fill-171" fill="#BD8A5F" points="5.29795122 5.24554054 5.29795122 4.77445946 8.81560976 3.1427027 10.563122 3.71716216 10.563122 4.18864865 7.05678049 6.30324324 5.29795122 5.24554054"></polyline>
+                                <polyline id="Fill-172" fill="#EFAD76" points="5.29795122 4.77445946 8.81560976 2.66027027 10.563122 3.71716216 7.05678049 5.83216216 5.29795122 4.77445946"></polyline>
+                            </g>
+                            <g id="bucket" transform="translate(23.000000, 78.000000)">
+                                <path d="M8.81829231,3.94545455 C11.3246154,3.91818182 13.7247538,4.72909091 14.9385538,6.18 C15.0776923,6.35818182 15.2040154,6.52727273 15.3010462,6.70363636 C14.7774462,7.80909091 13.5471692,8.79818182 11.7713231,9.38727273 C8.32581538,10.5327273 4.12053846,9.76909091 2.37947692,7.68 C2.23484615,7.50909091 2.11035385,7.33272727 2.01332308,7.15272727 C2.53875385,6.05090909 3.76353846,5.07090909 5.54304615,4.47454545 C6.30098462,4.22363636 7.0992,4.06545455 7.89741538,3.99818182" id="Fill-2307" fill="#BFBDE9"></path>
+                                <path d="M8.61690769,1.30181818 C8.60592308,1.09272727 8.59310769,0.881818182 8.58944615,0.674545455 C11.5955692,0.598181818 14.4973385,1.55090909 15.9473077,3.28363636 C16.7253846,4.21272727 16.9707077,5.23454545 16.7546769,6.22181818 C16.3995077,7.80363636 14.8378615,9.29090909 12.3608308,10.1127273 C8.33863077,11.4527273 3.42484615,10.5563636 1.39086154,8.12363636 C0.938661538,7.58363636 0.671369231,7.01454545 0.556030769,6.44363636 C0.178892308,4.42363636 1.84855385,2.32909091 4.981,1.29090909 C5.73344615,1.04181818 6.51518462,0.870909091 7.30424615,0.769090909 C7.40676923,0.96 7.48732308,1.16727273 7.54956923,1.37090909 C6.83556923,1.44909091 6.13072308,1.60363636 5.45333846,1.82909091 C2.29526154,2.87818182 0.869092308,5.17272727 2.01332308,7.15272727 C2.11035385,7.33272727 2.23484615,7.50909091 2.37947692,7.68 C4.12053846,9.76909091 8.32581538,10.5327273 11.7713231,9.38727273 C13.5471692,8.79818182 14.7774462,7.80909091 15.3010462,6.70363636 C15.7990154,5.67272727 15.6836769,4.54181818 14.8451846,3.53090909 C13.6094154,2.06181818 11.1598462,1.25090909 8.61690769,1.30181818 Z" id="Fill-2310" fill="#747DBC"></path>
+                                <path d="M14.6676,16.0090909 C14.4112923,17.1890909 13.2505846,18.2836364 11.4033385,18.8981818 C8.42467692,19.8872727 4.77778462,19.2272727 3.26556923,17.4163636 C3.0294,17.1436364 2.8628,16.8545455 2.76210769,16.5636364 L0.556030769,6.44363636 C0.671369231,7.01454545 0.938661538,7.58363636 1.39086154,8.12363636 C3.42484615,10.5563636 8.33863077,11.4527273 12.3608308,10.1127273 C14.8378615,9.29090909 16.3995077,7.80363636 16.7546769,6.22181818 L16.7601692,6.22181818 L14.6676,16.0090909" id="Fill-2311" fill="#534583"></path>
+                                <path d="M8.61760266,1.31493842 C8.34274844,1.33532367 7.87351171,1.32836372 7.46363549,1.3821966 C6.67950165,1.48518424 5.88483814,1.68547447 5.45333846,1.82909091 C2.29526154,2.87818182 0.869092308,5.17272727 2.01332308,7.15272727 C2.53875385,6.05090909 3.76353846,5.07090909 5.54304615,4.47454545 C6.30098462,4.22363636 7.0992,4.06545455 7.89741538,3.99818182 C8.50537816,3.96224703 8.69367856,3.96909948 8.92651984,3.94479716 C11.3935084,3.94167388 13.7422364,4.74998857 14.9385538,6.18 C15.0776923,6.35818182 15.2040154,6.52727273 15.3010462,6.70363636 C15.7990154,5.67272727 15.6836769,4.54181818 14.8451846,3.53090909 C13.6094154,2.06181818 11.1598462,1.25090909 8.61690769,1.30181818 L8.61760266,1.31493842 L8.61760266,1.31493842 Z" id="Combined-Shape" fill="#534583"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
