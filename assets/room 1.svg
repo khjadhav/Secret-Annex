@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="327px" height="274px" viewBox="0 0 327 274" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="291px" height="274px" viewBox="0 0 291 274" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
     <title>room 1</title>
     <desc>Created with Sketch.</desc>
@@ -17,74 +17,69 @@
             <stop stop-color="#0D2132" offset="0%"></stop>
             <stop stop-color="#2D4564" offset="100%"></stop>
         </radialGradient>
-        <radialGradient cx="4.24256437%" cy="29.5135616%" fx="4.24256437%" fy="29.5135616%" r="63.4015182%" gradientTransform="translate(0.042426,0.295136),scale(0.695375,1.000000),rotate(90.000000),translate(-0.042426,-0.295136)" id="radialGradient-6">
+        <radialGradient cx="4.24256437%" cy="29.5135616%" fx="4.24256437%" fy="29.5135616%" r="63.4015182%" gradientTransform="translate(0.042426,0.295136),scale(0.704460,1.000000),rotate(90.000000),translate(-0.042426,-0.295136)" id="radialGradient-6">
             <stop stop-color="#0D2132" offset="0%"></stop>
             <stop stop-color="#2D4564" offset="100%"></stop>
         </radialGradient>
-        <radialGradient cx="4.24256437%" cy="29.5135616%" fx="4.24256437%" fy="29.5135616%" r="63.4015182%" gradientTransform="translate(0.042426,0.295136),scale(0.699279,1.000000),rotate(90.000000),translate(-0.042426,-0.295136)" id="radialGradient-7">
+        <radialGradient cx="76.7317951%" cy="0%" fx="76.7317951%" fy="0%" r="63.4015182%" gradientTransform="translate(0.767318,0.000000),scale(0.546551,1.000000),rotate(90.000000),translate(-0.767318,-0.000000)" id="radialGradient-7">
             <stop stop-color="#0D2132" offset="0%"></stop>
             <stop stop-color="#2D4564" offset="100%"></stop>
         </radialGradient>
-        <radialGradient cx="76.7317951%" cy="0%" fx="76.7317951%" fy="0%" r="63.4015182%" gradientTransform="translate(0.767318,0.000000),scale(0.546551,1.000000),rotate(90.000000),translate(-0.767318,-0.000000)" id="radialGradient-8">
-            <stop stop-color="#0D2132" offset="0%"></stop>
-            <stop stop-color="#2D4564" offset="100%"></stop>
-        </radialGradient>
-        <radialGradient cx="42.2003805%" cy="89.6025678%" fx="42.2003805%" fy="89.6025678%" r="48.9512664%" gradientTransform="translate(0.422004,0.896026),scale(1.000000,0.890731),rotate(97.156414),translate(-0.422004,-0.896026)" id="radialGradient-9">
+        <radialGradient cx="42.2003805%" cy="89.6025678%" fx="42.2003805%" fy="89.6025678%" r="48.9512664%" gradientTransform="translate(0.422004,0.896026),scale(1.000000,0.890731),rotate(97.156414),translate(-0.422004,-0.896026)" id="radialGradient-8">
             <stop stop-color="#C9607D" offset="0%"></stop>
             <stop stop-color="#80647E" offset="100%"></stop>
         </radialGradient>
-        <path d="M201.016707,117.170972 L201.016707,225.966757 L0.54204595,109.577296 L0.218990772,0.536458727 L201.016707,117.170972 Z M30.223,35.2944 L30.223,103.2376 L50.9,115.2496 L50.9,47.3064 L30.223,35.2944 Z M58.223,51.2944 L58.223,119.2376 L78.9,131.2496 L78.9,63.3064 L58.223,51.2944 Z M133.223,92.2944 L133.223,160.2376 L153.9,172.2496 L153.9,104.3064 L133.223,92.2944 Z M161.223,108.2944 L161.223,176.2376 L181.9,188.2496 L181.9,120.3064 L161.223,108.2944 Z" id="path-10"></path>
-        <linearGradient x1="50%" y1="0%" x2="33.2844558%" y2="81.1720736%" id="linearGradient-12">
+        <path d="M201.016707,117.170972 L201.016707,225.966757 L0.54204595,109.577296 L0.218990772,0.536458727 L201.016707,117.170972 Z M30.223,35.2944 L30.223,103.2376 L50.9,115.2496 L50.9,47.3064 L30.223,35.2944 Z M58.223,51.2944 L58.223,119.2376 L78.9,131.2496 L78.9,63.3064 L58.223,51.2944 Z M133.223,92.2944 L133.223,160.2376 L153.9,172.2496 L153.9,104.3064 L133.223,92.2944 Z M161.223,108.2944 L161.223,176.2376 L181.9,188.2496 L181.9,120.3064 L161.223,108.2944 Z" id="path-9"></path>
+        <linearGradient x1="50%" y1="0%" x2="33.2844558%" y2="81.1720736%" id="linearGradient-11">
             <stop stop-color="#302346" offset="0%"></stop>
             <stop stop-color="#97627D" offset="100%"></stop>
         </linearGradient>
-        <radialGradient cx="100%" cy="132.571945%" fx="100%" fy="132.571945%" r="99.8844069%" gradientTransform="translate(1.000000,1.325719),scale(0.583215,1.000000),rotate(90.000000),translate(-1.000000,-1.325719)" id="radialGradient-13">
+        <radialGradient cx="100%" cy="132.571945%" fx="100%" fy="132.571945%" r="99.8844069%" gradientTransform="translate(1.000000,1.325719),scale(0.583215,1.000000),rotate(90.000000),translate(-1.000000,-1.325719)" id="radialGradient-12">
             <stop stop-color="#2F1E48" offset="0%"></stop>
             <stop stop-color="#3F394C" offset="100%"></stop>
         </radialGradient>
-        <polygon id="path-14" points="-0.240023095 117.170972 206.669786 -3.03387284 200.249765 -6.79898779 -5.89310215 114.098722"></polygon>
-        <radialGradient cx="100%" cy="132.571945%" fx="100%" fy="132.571945%" r="99.8844069%" gradientTransform="translate(1.000000,1.325719),scale(0.563928,1.000000),rotate(90.000000),translate(-1.000000,-1.325719)" id="radialGradient-16">
+        <polygon id="path-13" points="-0.240023095 117.170972 206.669786 -3.03387284 200.249765 -6.79898779 -5.89310215 114.098722"></polygon>
+        <radialGradient cx="100%" cy="132.571945%" fx="100%" fy="132.571945%" r="99.8844069%" gradientTransform="translate(1.000000,1.325719),scale(0.563928,1.000000),rotate(90.000000),translate(-1.000000,-1.325719)" id="radialGradient-15">
             <stop stop-color="#2E2047" offset="0%"></stop>
             <stop stop-color="#291E42" offset="99.1430166%"></stop>
         </radialGradient>
-        <radialGradient cx="23.9960062%" cy="91.7884308%" fx="23.9960062%" fy="91.7884308%" r="73.9071051%" gradientTransform="translate(0.239960,0.917884),scale(1.000000,0.911234),rotate(95.996462),scale(1.000000,0.986484),translate(-0.239960,-0.917884)" id="radialGradient-17">
+        <radialGradient cx="23.9960062%" cy="91.7884308%" fx="23.9960062%" fy="91.7884308%" r="73.9071051%" gradientTransform="translate(0.239960,0.917884),scale(1.000000,0.910683),rotate(95.992862),scale(1.000000,0.986484),translate(-0.239960,-0.917884)" id="radialGradient-16">
             <stop stop-color="#C9607D" offset="0%"></stop>
             <stop stop-color="#80647E" offset="54.9366231%"></stop>
             <stop stop-color="#473C60" offset="100%"></stop>
         </radialGradient>
-        <radialGradient cx="100%" cy="132.571945%" fx="100%" fy="132.571945%" r="99.8844069%" gradientTransform="translate(1.000000,1.325719),scale(1.000000,0.831289),rotate(90.000000),translate(-1.000000,-1.325719)" id="radialGradient-18">
+        <radialGradient cx="100%" cy="132.571945%" fx="100%" fy="132.571945%" r="99.8844069%" gradientTransform="translate(1.000000,1.325719),scale(1.000000,0.835044),rotate(90.000000),translate(-1.000000,-1.325719)" id="radialGradient-17">
             <stop stop-color="#2F1E48" offset="0%"></stop>
             <stop stop-color="#3F394C" offset="100%"></stop>
         </radialGradient>
-        <radialGradient cx="50%" cy="26.4620567%" fx="50%" fy="26.4620567%" r="63.7438598%" gradientTransform="translate(0.500000,0.264621),scale(1.000000,0.792139),rotate(78.942104),translate(-0.500000,-0.264621)" id="radialGradient-19">
+        <radialGradient cx="50%" cy="26.4620567%" fx="50%" fy="26.4620567%" r="63.7438598%" gradientTransform="translate(0.500000,0.264621),scale(1.000000,0.793503),rotate(78.923540),translate(-0.500000,-0.264621)" id="radialGradient-18">
             <stop stop-color="#7F5470" offset="0%"></stop>
             <stop stop-color="#4B3E62" offset="100%"></stop>
         </radialGradient>
-        <radialGradient cx="100%" cy="132.571945%" fx="100%" fy="132.571945%" r="99.8844069%" gradientTransform="translate(1.000000,1.325719),scale(1.000000,0.847608),rotate(90.000000),translate(-1.000000,-1.325719)" id="radialGradient-20">
+        <radialGradient cx="100%" cy="132.571945%" fx="100%" fy="132.571945%" r="99.8844069%" gradientTransform="translate(1.000000,1.325719),scale(1.000000,0.847959),rotate(90.000000),translate(-1.000000,-1.325719)" id="radialGradient-19">
             <stop stop-color="#2F1E48" offset="0%"></stop>
             <stop stop-color="#3F394C" offset="100%"></stop>
         </radialGradient>
-        <linearGradient x1="50%" y1="12.7835531%" x2="50%" y2="73.8908359%" id="linearGradient-21">
+        <linearGradient x1="50%" y1="12.7835531%" x2="50%" y2="73.8908359%" id="linearGradient-20">
             <stop stop-color="#2C1817" offset="0%"></stop>
             <stop stop-color="#040203" offset="100%"></stop>
         </linearGradient>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Grids" transform="translate(-2036.000000, -954.000000)">
+        <g id="Grids" transform="translate(-2072.000000, -954.000000)">
             <g id="Group-26" transform="translate(1776.000000, 138.000000)">
                 <g id="floor-3" transform="translate(112.000000, 745.000000)">
-                    <g id="room-1" transform="translate(148.000000, 71.000000)">
-                        <g id="room-1-floor" transform="translate(0.000000, 89.000000)">
-                            <g id="floor-1" transform="translate(-146.000000, -44.000000)">
+                    <g id="room-1" transform="translate(2.000000, 71.000000)">
+                        <g id="room-1-floor" transform="translate(0.000000, 45.000000)">
+                            <g id="floor-1">
                                 <mask id="mask-3" fill="white">
                                     <use xlink:href="#path-2"></use>
                                 </mask>
                                 <use id="Mask" fill="url(#radialGradient-1)" xlink:href="#path-2"></use>
                                 <polygon id="Mask-Copy" fill="url(#radialGradient-4)" mask="url(#mask-3)" points="-8 235.880787 153.224264 149 219.673553 192.797348 58.0258371 259.172739"></polygon>
                                 <polygon id="Mask-Copy-3" fill="url(#radialGradient-5)" mask="url(#mask-3)" points="104.039039 313.689495 253.224264 213 319.673553 256.797348 158.025837 323.172739"></polygon>
-                                <polygon id="Mask-Copy-5" fill="url(#radialGradient-6)" mask="url(#mask-3)" points="235.239043 150.437024 373.224264 53 439.673553 96.7973476 333.170558 195.158549"></polygon>
-                                <polygon id="Mask-Copy-6" fill="url(#radialGradient-7)" opacity="0.300000012" mask="url(#mask-3)" points="195.31658 175.207234 205.166359 168.278658 248.59194 205.533012 228.51689 192.49261"></polygon>
-                                <polygon id="Mask-Copy-4" fill="url(#radialGradient-8)" mask="url(#mask-3)" points="39.2146659 286.066559 203.224264 213 230.654607 232.579255 103.733574 317.631773"></polygon>
+                                <polygon id="Mask-Copy-5" fill="url(#radialGradient-6)" mask="url(#mask-3)" points="235.756266 150.026703 373.224264 53 439.673553 96.7973476 328.677416 196.651614"></polygon>
+                                <polygon id="Mask-Copy-4" fill="url(#radialGradient-7)" mask="url(#mask-3)" points="39.2146659 286.066559 203.224264 213 230.654607 232.579255 103.733574 317.631773"></polygon>
                                 <polygon id="Rectangle-6-Copy-4" fill="#040303" opacity="0.699999988" mask="url(#mask-3)" points="143 68.9772271 223.216681 23 266 45.8188382 184.446087 93.1778625"></polygon>
                                 <polygon id="Rectangle-6-Copy-4" fill="#040303" opacity="0.699999988" mask="url(#mask-3)" points="291 113.841394 371.216681 67.8641672 414 90.6830054 332.446087 138.04203"></polygon>
                                 <g id="Group" mask="url(#mask-3)">
@@ -116,17 +111,17 @@
                                 </g>
                             </g>
                         </g>
-                        <g id="room-2-window-wall" transform="translate(234.000000, 0.000000)">
+                        <g id="room-2-window-wall" transform="translate(380.000000, 0.000000)">
                             <g id="room-common-walls" transform="translate(-114.000000, -63.000000)">
-                                <mask id="mask-11" fill="white">
-                                    <use xlink:href="#path-10"></use>
+                                <mask id="mask-10" fill="white">
+                                    <use xlink:href="#path-9"></use>
                                 </mask>
-                                <use id="Mask" fill="url(#radialGradient-9)" xlink:href="#path-10"></use>
-                                <polygon id="Path-3" fill="url(#linearGradient-12)" mask="url(#mask-11)" transform="translate(167.331995, 224.197675) scale(-1, 1) translate(-167.331995, -224.197675) " points="194.045535 176 122 272.395351 212.66399 264.327743"></polygon>
-                                <mask id="mask-15" fill="white">
-                                    <use xlink:href="#path-14"></use>
+                                <use id="Mask" fill="url(#radialGradient-8)" xlink:href="#path-9"></use>
+                                <polygon id="Path-3" fill="url(#linearGradient-11)" mask="url(#mask-10)" transform="translate(167.331995, 224.197675) scale(-1, 1) translate(-167.331995, -224.197675) " points="194.045535 176 122 272.395351 212.66399 264.327743"></polygon>
+                                <mask id="mask-14" fill="white">
+                                    <use xlink:href="#path-13"></use>
                                 </mask>
-                                <use id="Rectangle-3-Copy" fill="url(#radialGradient-13)" transform="translate(100.388342, 55.185992) scale(-1, 1) translate(-100.388342, -55.185992) " xlink:href="#path-14"></use>
+                                <use id="Rectangle-3-Copy" fill="url(#radialGradient-12)" transform="translate(100.388342, 55.185992) scale(-1, 1) translate(-100.388342, -55.185992) " xlink:href="#path-13"></use>
                                 <g id="room-2-windows" transform="translate(24.000000, 28.000000)">
                                     <g>
                                         <path d="M0.0746666667,0.1444 L0.0746666667,78.81 L29.9741667,96.1832 L29.9741667,17.5228 L0.0746666667,0.1444 Z M3.14883333,5.5108 L26.9,19.3064 L26.9,90.822 L3.14883333,77.0212 L3.14883333,5.5108 L3.14883333,5.5108 Z" id="Fill-873" fill="#424B54"></path>
@@ -145,7 +140,7 @@
                                 </g>
                             </g>
                         </g>
-                        <g id="room-2-front-wall" transform="translate(47.000000, 11.000000)">
+                        <g id="room-2-front-wall" transform="translate(193.000000, 11.000000)">
                             <g id="room-1-windows" transform="translate(200.000000, 11.000000)">
                                 <g id="windows">
                                     <path d="M0.0746666667,0.1444 L0.0746666667,78.81 L29.9741667,96.1832 L29.9741667,17.5228 L0.0746666667,0.1444 Z M3.14883333,5.5108 L26.9,19.3064 L26.9,90.822 L3.14883333,77.0212 L3.14883333,5.5108 L3.14883333,5.5108 Z" id="Fill-873" fill="#424B54"></path>
@@ -163,14 +158,14 @@
                                 </g>
                             </g>
                             <g id="room-1-mid-wall">
-                                <polygon id="Rectangle-3" fill="url(#radialGradient-16)" points="3.37122662 107.723468 190.433088 2.08302385 187.793698 0.412763328 0.141502714 105.573687"></polygon>
-                                <path d="M44.6090742,184.089222 L190.433088,103.098695 L190.433088,2.2108823 L4.29793908,106.583336 L4.29793908,206.47799 L18,198.867878 L18,132.5024 L44.1002069,118 L44.6090742,184.089222 Z" id="Combined-Shape" fill="url(#radialGradient-17)"></path>
+                                <polygon id="Rectangle-3" fill="url(#radialGradient-15)" points="3.37122662 107.723468 190.433088 2.08302385 187.793698 0.412763328 0.141502714 105.573687"></polygon>
+                                <path d="M44.6090742,184.089222 L190.433088,103.098695 L190.433088,2.08726117 L4.29793908,106.583336 L4.29793908,206.47799 L18,198.867878 L18,132.5024 L44.1002069,118 L44.6090742,184.089222 Z" id="Combined-Shape" fill="url(#radialGradient-16)"></path>
                             </g>
                             <g id="room-1-door" transform="translate(31.000000, 157.000000) scale(-1, 1) translate(-31.000000, -157.000000) translate(14.000000, 113.000000)">
                                 <polygon id="Fill-138" fill="#BF687F" points="5.24772414 71.0254543 5.62758621 6.55776 3.48910345 6.14592 3.48910345 71.9159467"></polygon>
                                 <polyline id="Fill-137" fill="#2A1B47" points="28.5893103 86.4183467 30.9353103 87.7735467 30.9353103 19.9067733 0.915655172 2.07914667 0.915655172 70.42816 3.48910345 71.9159467 3.48910345 6.14592 28.5893103 20.64832 28.5893103 86.4183467"></polyline>
                                 <polyline id="Fill-139" fill="#77465C" points="30.9353103 87.7735467 33.1945517 86.4922667 33.1945517 18.7170133 3.0517931 0.885866667 0.915655172 2.07914667 30.9353103 19.9067733 30.9353103 87.7735467"></polyline>
-                                <polyline id="Fill-140" fill="#BDB5A4" points="30.9353103 19.9067733 33.1945517 18.7170133 33.1945517 86.4922667 30.9353103 87.7735467 30.9353103 19.9067733"></polyline>
+                                <polyline id="Fill-140" fill="#BF687F" points="30.9353103 19.9067733 33.1945517 18.7170133 33.1945517 86.4922667 30.9353103 87.7735467 30.9353103 19.9067733"></polyline>
                             </g>
                             <g id="room-1-bed" transform="translate(161.000000, 121.000000) scale(-1, 1) translate(-161.000000, -121.000000) translate(105.000000, 72.000000)">
                                 <g id="Group-20">
@@ -198,8 +193,8 @@
                                 </g>
                             </g>
                             <g id="room-1-front-wall-separation" transform="translate(108.000000, 43.000000)">
-                                <polygon id="Rectangle-3-Copy" fill="url(#radialGradient-18)" transform="translate(75.323837, 91.149155) scale(-1, 1) translate(-75.323837, -91.149155) " points="29.510287 15.7814402 33.6298151 81.1075311 88.7264373 129.437883 139.981637 155.922221 139.981637 173.824595 150.627997 181.736368 107.359486 155.922221 86.0444178 132.08424 30.8582122 82.8120954 26.4919943 17.3058201 0.0196774317 2.61230689 3.19736074 0.56194156"></polygon>
-                                <polygon id="Rectangle-3-Copy" fill="url(#radialGradient-19)" transform="translate(82.050120, 89.185333) scale(-1, 1) translate(-82.050120, -89.185333) " points="13.9518892 96.0331062 150.627997 175.758358 150.627997 158.026875 99.5545027 131.99052 44.1903693 82.7448982 39.8705731 17.6142626 13.4722438 2.61230689"></polygon>
+                                <polygon id="Rectangle-3-Copy" fill="url(#radialGradient-17)" transform="translate(75.533254, 91.305665) scale(-1, 1) translate(-75.533254, -91.305665) " points="29.9291197 15.7814402 34.0486478 81.1075311 89.14527 129.437883 140.40047 155.922221 140.40047 173.824595 151.04683 181.736368 107.778319 155.922221 86.4632505 132.08424 31.2770448 82.8120954 26.9108269 17.3058201 0.0196774317 2.37888083 2.71636156 0.874960836"></polygon>
+                                <polygon id="Rectangle-3-Copy" fill="url(#radialGradient-18)" transform="translate(82.260942, 89.068416) scale(-1, 1) translate(-82.260942, -89.068416) " points="14.3735317 96.0331062 151.04964 175.758358 151.04964 158.026875 99.9761453 131.99052 44.6120119 82.7448982 40.3965521 17.2454004 13.4722438 2.37847381"></polygon>
                                 <polygon id="Path-4" fill="#040203" opacity="0.699999988" points="31.2171778 148.961902 20.1623952 171.422102 39.7394801 161.674394"></polygon>
                             </g>
                             <g id="room-1-brick-hole" transform="translate(138.000000, 161.000000)">
@@ -256,8 +251,8 @@
                                 </g>
                             </g>
                             <g id="room-1-front-wall" transform="translate(98.000000, 37.000000)">
-                                <polygon id="Rectangle-3-Copy" fill="url(#radialGradient-20)" transform="translate(91.280509, 107.175380) scale(-1, 1) translate(-91.280509, -107.175380) " points="35.2234932 18.2588667 40.4626288 95.368196 105.156727 152.196192 181.563197 190.15666 181.563197 211.206705 177.841139 213.690015 102.007517 155.307843 37.2082305 97.3724639 32.0814456 20.3486017 0.997821921 3.0716136 4.72903716 0.660744472"></polygon>
-                                <polygon id="Rectangle-3-Copy" fill="url(#linearGradient-21)" transform="translate(93.163427, 108.465098) scale(-1, 1) translate(-93.163427, -108.465098) " points="5.32685458 112.918048 181.563197 213.858582 181.563197 193.009476 105.840891 155.197645 40.8326829 97.2934517 35.7604061 20.7112758 4.76365802 3.0716136"></polygon>
+                                <polygon id="Rectangle-3-Copy" fill="url(#radialGradient-19)" transform="translate(91.270868, 107.230799) scale(-1, 1) translate(-91.270868, -107.230799) " points="35.2042113 18.2588667 40.4433469 95.368196 105.137445 152.196192 181.543915 190.15666 181.543915 211.206705 177.821857 213.690015 101.988235 155.307843 37.1889486 97.3724639 32.0621638 20.3486017 0.997821921 3.08519433 4.82524485 0.771582126"></polygon>
+                                <polygon id="Rectangle-3-Copy" fill="url(#linearGradient-20)" transform="translate(93.163427, 108.465098) scale(-1, 1) translate(-93.163427, -108.465098) " points="5.32685458 112.918048 181.563197 213.858582 181.563197 193.009476 105.840891 155.197645 40.8326829 97.2934517 35.8490656 20.3439331 4.76365802 3.0716136"></polygon>
                             </g>
                         </g>
                     </g>

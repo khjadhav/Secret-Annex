@@ -4,6 +4,9 @@ $(document).ready(function() {
   /* Zoom animation end Call back */
   function endCb() {
     // can be used to trigger any event once the zoom animation is triggered
+    console.log('test123');
+
+    $(window).scrollTop($('.grey-cube').offset().top);
   }
     $(".black").click(function(e) {
 
@@ -82,10 +85,33 @@ $(document).ready(function() {
     });
   })
 
-    // $(document).click(function(e) {
-    //     e.stopPropagation();
-    //     $("body").zoomTo({root: $('.black .grey .lightGrey'),targetsize:0,duration:2600});
-    // });
+  $(".grey-cube").click(function(e) {
+    //e.stopPropagation();
+  });
+  var zoomVar = 0;
+  $('body').click(function(e) {
+
+      e.stopPropagation();
+      if($(e.target).hasClass("grey-cube"))
+      {
+        $(e.target).zoomTo({targetsize:1,duration:1600,closeclick:true,animationendcallback:endCb});
+        if(zoomVar == 0 )
+        {
+          zoomVar = 1;
+        }
+        else {
+          zoomVar = 0;
+        }
+      }
+      if( zoomVar == 0)
+      {
+        $("body").zoomTo({targetsize:0,duration:2600});
+      }
+
+      console.log('test-close');
+      console.log(e);
+      //$("body").zoomTo({targetsize:0,duration:2600});
+  });
 
     //for selecting individual floors on the grey floor
 
@@ -111,27 +137,6 @@ $(document).ready(function() {
 
         $("#cube3").hover(cube3enter, cube3exit);
         $("#cube1modal").hover(cube3enter, cube3exit);
-
-
-        $("#cube4").hover(cube3enter, cube3exit);
-        $("#cube1modal").hover(cube3enter, cube3exit);
-
-
-        $("#cube5").hover(cube3enter, cube3exit);
-        $("#cube1modal").hover(cube3enter, cube3exit);
-
-
-        $("#cube6").hover(cube3enter, cube3exit);
-        $("#cube1modal").hover(cube3enter, cube3exit);
-
-
-        $("#cube7").hover(cube3enter, cube3exit);
-        $("#cube1modal").hover(cube3enter, cube3exit);
-
-
-
-
-
 
         $("#cube1").click(function(){
           $("#cube2modal").css({display:"block"});

@@ -684,7 +684,7 @@ if(!$.zoomooz) {
         var ret = "";
         /* this probably made safari 5.1.1. + os 10.6.8 + non-unibody mac? */
         //ret += "translateZ(0) ";
-        ret += "translate("+roundNumber(ia.tx,6)+"px,"+roundNumber(ia.ty,6)+"px) ";
+        ret += "translate("+roundNumber(ia.tx,6)+"px,"+roundNumber(0)+"px) ";
         ret += "rotate("+roundNumber(ia.r,6)+"rad) skewX("+roundNumber(ia.k,6)+"rad) ";
         ret += "scale("+roundNumber(ia.sx,6)+","+roundNumber(ia.sy,6)+")";
         return ret;
@@ -1090,6 +1090,7 @@ if(!$.zoomooz) {
                     settings.animationendcallback.call(elem[0]);
                 };
             }
+            console.log(settings);
 
         } else {
 
@@ -1177,7 +1178,7 @@ if(!$.zoomooz) {
                 $root.css(prefix+"transform", transformStr);
             });
 
-            elem.addClass("noScroll");
+            //elem.addClass("noScroll");
 
             if(useScrollResetBeforeZoom) {
                 scrollData.animationstartedcallback = function() {
@@ -1210,7 +1211,7 @@ if(!$.zoomooz) {
         var xrotorigin = dw/2.0;
         var yrotorigin = dh/2.0;
 
-        var offsetStr = printFixedNumber(xrotorigin)+"px "+printFixedNumber(yrotorigin)+"px";
+        var offsetStr = printFixedNumber(xrotorigin)+"px "+printFixedNumber(0)+"px";
 
         helpers.forEachPrefix(function(prefix) {
              zoomParent.css(prefix+"transform-origin", offsetStr);
