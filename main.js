@@ -43,7 +43,8 @@ $(document).ready(function() {
       $(this).parent().siblings().addClass("notActive");
 
       if ($(this).siblings().hasClass("modal")){
-        $("#cube1modal").css({opacity:"1"});
+        var pos=$(this).position()
+        $("#cube1modal").css({opacity:"1",right:pos.right, width:"100%"});
       }
     });
 
@@ -92,12 +93,24 @@ $(document).ready(function() {
 
 
 //when the user clicks on an item open the modal
-        $("#cube3").click(function(){
-          var pos=$(this).position();
-          var width=$(document).width();
-          console.log(pos);
+        // $("#cube3").mouseenter(function(){
+        //   var pos=$(this).position();
+        //   var width=$(document).width();
+        //   console.log(pos);
+        //   $("#cube1modal").css({display:"block"});
+        // })
+
+
+        var cube3enter= function(){
           $("#cube1modal").css({display:"block"});
-        })
+          };
+
+        var cube3exit= function(){
+          $("#cube1modal").css({display:"none"});
+          };
+
+        $("#cube3").hover(cube3enter, cube3exit);
+        $("#cube1modal").hover(cube3enter, cube3exit);
 
         $("#cube1").click(function(){
           $("#cube2modal").css({display:"block"});

@@ -1,3 +1,23 @@
+html, body, h1, h2, h3, h4, p, div, ul,li,a {
+    padding:0;
+    border:0;
+    margin:0;
+    list-style-type: none;
+    font:inherit;
+    font-size: 100%;
+    font-family: Avenir, Helvetica, sans-serif;
+
+}
+
+ html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                background-color: green;
+                overflow:auto;
+            }
+/*____________________________________________________________________________________________*/
 
 #cube{
     position: relative;
@@ -5,6 +25,9 @@
     margin-left:5px;
 }
 
+.grey .expanded .zoomTarget{
+    height:400px;
+}
 
 #cube3{
 /*    width:90%;*/
@@ -94,24 +117,51 @@
     display: none; /* Hidden by default */
     position: absolute; /* Stay in place */
     z-index: 1; /* Sit on top */
-/*    padding-top: 100px;  Location of the box */
     left: 0;
     top: 0;
-    width: 100%; /* Full width */
+    width: 380px; /* Full width */
     height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
+/*    overflow: auto;*/  /*Enable scroll if needed */
     z-index: 50;
 }
 
 /* Modal Content */
 .modal-content {
-    background-color: #fefefe;
+    text-align: center;
+    background: #040203;
+    border: 4px solid #8DDBFF;
+    border-radius: 5px;
     position:relative;
     margin: auto;
     padding: 20px;
-    border: 1px solid #888;
-    width: 20%;
+    width: 280px;
     z-index:50;
+}
+
+.modal-content span{
+    color: #83D1FF;
+    margin-top: -16px;
+}
+
+.modalPicture{
+    display:block;
+    width:100px;
+    margin-top:-75px;
+    margin-right: auto;
+    margin-left:auto;
+}
+
+.modalHeading {
+    font-family: AvenirNext-Bold;
+    font-size: 16px;
+    color: #83D1FF;
+}
+
+.modalText{
+    font-family: AvenirNext-Medium;
+    font-size: 10px;
+    color: #83D1FF;
+
 }
 
 .invisible {
