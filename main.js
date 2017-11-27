@@ -6,7 +6,7 @@ $(document).ready(function() {
     // can be used to trigger any event once the zoom animation is triggered
     console.log('test123');
 
-    $(window).scrollTop($('.grey-cube').offset().top);
+      // $(window).scrollTop($('.grey-cube').offset().top);
   }
     $(".black").click(function(e) {
 
@@ -85,33 +85,33 @@ $(document).ready(function() {
     });
   })
 
-  $(".grey-cube").click(function(e) {
-    //e.stopPropagation();
-  });
-  var zoomVar = 0;
-  $('body').click(function(e) {
+  // $(".grey-cube").click(function(e) {
+  //   //e.stopPropagation();
+  // });
+  // var zoomVar = 0;
+  // $('body').click(function(e) {
 
-      e.stopPropagation();
-      if($(e.target).hasClass("grey-cube"))
-      {
-        $(e.target).zoomTo({targetsize:1,duration:1600,closeclick:true,animationendcallback:endCb});
-        if(zoomVar == 0 )
-        {
-          zoomVar = 1;
-        }
-        else {
-          zoomVar = 0;
-        }
-      }
-      if( zoomVar == 0)
-      {
-        $("body").zoomTo({targetsize:0,duration:2600});
-      }
+  //     e.stopPropagation();
+  //     if($(e.target).hasClass("grey-cube"))
+  //     {
+  //       $(e.target).zoomTo({targetsize:1,duration:1600,closeclick:true,animationendcallback:endCb});
+  //       if(zoomVar == 0 )
+  //       {
+  //         zoomVar = 1;
+  //       }
+  //       else {
+  //         zoomVar = 0;
+  //       }
+  //     }
+  //     if( zoomVar == 0)
+  //     {
+  //       $("body").zoomTo({targetsize:0,duration:2600});
+  //     }
 
-      console.log('test-close');
-      console.log(e);
-      //$("body").zoomTo({targetsize:0,duration:2600});
-  });
+  //     console.log('test-close');
+  //     console.log(e);
+  //     $("body").zoomTo({targetsize:0,duration:2600});
+  // });
 
     //for selecting individual floors on the grey floor
 
