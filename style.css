@@ -15,7 +15,6 @@ html, body, h1, h2, h3, h4, p, div, ul,li,a {
                 margin: 0;
                 padding: 0;
                 background-color: #E7DADA;
-                overflow:auto;
             }
 /*____________________________________________________________________________________________*/
 .entry{
@@ -29,7 +28,6 @@ html, body, h1, h2, h3, h4, p, div, ul,li,a {
   margin-top:-533px;
   margin-left: -36px;
 }
-
 .bookshelf{
   position: relative;
   z-index: 1000;
@@ -70,7 +68,9 @@ a{
     font-size: 12px;
 }
 
-
+.alls {
+  background-color: red,
+}
 
 #cube{
     position: relative;
@@ -138,6 +138,12 @@ a{
     padding-bottom: 39px;
 }
 
+.all-wrapper {
+
+
+
+}
+
 #cube8{
     position: relative;
     z-index: 10;
@@ -184,6 +190,22 @@ a{
     width:0px;
     z-index:60;
 }
+
+
+.all {
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 3s; /* Firefox < 16 */
+        -ms-animation: fadein 3s; /* Internet Explorer */
+         -o-animation: fadein 3s; /* Opera < 12.1 */
+            animation: fadein 3s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
 
 .modal {
     display: none; /* Hidden by default */
@@ -253,6 +275,16 @@ a{
     cursor: pointer;
 }
 
+  #overlay {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  z-index: 1000000;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+
+}
+
 @media screen and (max-width: 767px) {
   .modalPicture{
     width: 100px;
@@ -260,8 +292,13 @@ a{
 }
 
 @media screen and (max-width: 480px) {
+  .all-wrapper{
+    height:300px;
+  }
+
   .all{
     width: 320px;
+    height:300px;
   }
   #cube{
     width:106%;
@@ -311,6 +348,9 @@ a{
     margin-left: 93px;
     padding-bottom: 122px;
   }
+
 }
+
+
 
 
