@@ -8,13 +8,13 @@ $(document).ready(function() {
         anime({
             targets:'div.grey',
             translateY: [
-            { value: 120, duration: 800 , easing: 'easeInOutSine'},
+            { value: 140, duration: 800 , easing: 'easeInOutSine'},
             ]
             })
         anime({
             targets:'div.lightGrey',
             translateY: [
-            { value: 280, duration: 800, easing: 'easeInOutSine'},
+            { value: 360, duration: 800, easing: 'easeInOutSine'},
             ]
             })
 
@@ -38,6 +38,10 @@ $(document).ready(function() {
         var pos=$(this).position()
         $("#vanpels").css({opacity:"1",right:pos.right, width:"100%"});
         $("#peter").css({opacity:"1",right:pos.right, width:"100%"});
+        $("#anne").css({opacity:"1",right:pos.right, width:"100%"});
+        $("#franks").css({opacity:"1",right:pos.right, width:"100%"});
+        $("#bathroom").css({opacity:"1",right:pos.right, width:"100%"});
+        $("#entrance").css({opacity:"1",right:pos.right, width:"100%"});
       }
     });
 
@@ -75,6 +79,8 @@ $(document).ready(function() {
 
       if ($(this).siblings().hasClass("modal")){
         var pos=$(this).position()
+        $("#vanpels").css({opacity:"1",right:pos.right, width:"100%"});
+        $("#peter").css({opacity:"1",right:pos.right, width:"100%"});
         $("#anne").css({opacity:"1",right:pos.right, width:"100%"});
         $("#franks").css({opacity:"1",right:pos.right, width:"100%"});
         $("#bathroom").css({opacity:"1",right:pos.right, width:"100%"});
