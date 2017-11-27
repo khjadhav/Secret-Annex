@@ -2,10 +2,13 @@
 $(document).ready(function() {
     $(".black").click(function(e) {
 
+      // $("#cube3").css({z-index:"500"});
+      // $("#cube4").css({z-index:"500"});
+
         anime({
             targets:'div.grey',
             translateY: [
-            { value: 140, duration: 800, easing: 'easeInOutSine'},
+            { value: 120, duration: 800 , easing: 'easeInOutSine'},
             ]
             })
         anime({
@@ -15,12 +18,6 @@ $(document).ready(function() {
             ]
             })
 
-        anime({
-                targets: '#lineStroke',
-                scaleY:[
-                { value: 30, duration: 2000, delay:10, easing: 'easeOutExpo' },
-                ]
-            })
         $(this).parents('.all').children().addClass('expanded');
 
       $(document).on( "mouseenter", ".expanded .grey-cube", function() {
@@ -39,7 +36,8 @@ $(document).ready(function() {
 
       if ($(this).siblings().hasClass("modal")){
         var pos=$(this).position()
-        $("#cube1modal").css({opacity:"1",right:pos.right, width:"100%"});
+        $("#vanpels").css({opacity:"1",right:pos.right, width:"100%"});
+        $("#peter").css({opacity:"1",right:pos.right, width:"100%"});
       }
     });
 
@@ -74,40 +72,103 @@ $(document).ready(function() {
       $(this).addClass("active");
       $(this).siblings().addClass('notActive');
       $(this).parent().siblings().addClass("notActive");
+
+      if ($(this).siblings().hasClass("modal")){
+        var pos=$(this).position()
+        $("#anne").css({opacity:"1",right:pos.right, width:"100%"});
+        $("#franks").css({opacity:"1",right:pos.right, width:"100%"});
+        $("#bathroom").css({opacity:"1",right:pos.right, width:"100%"});
+        $("#entrance").css({opacity:"1",right:pos.right, width:"100%"});
+      }
+
     });
   })
 
+// $("#cube").elevateZoom({
+//   zoomType : "lens",
+//   lensShape : "round",
+//   lensSize    : 200,
+// });
+//for hovering over the VanPel's room
+        // var cube3enter= function(){
+        //   $("#vanpels").css({display:"block"});
+        //   };
 
-        var cube3enter= function(){
-          $("#cube1modal").css({display:"block"});
-          };
+        // var cube3exit= function(){
+        //   $("#vanpels").css({display:"none"});
+        //   };
 
-        var cube3exit= function(){
-          $("#cube1modal").css({display:"none"});
-          };
+        // $("#cube3").hover(cube3enter, cube3exit);
+        // $("#vanpels").hover(cube3enter, cube3exit);
 
-        $("#cube3").hover(cube3enter, cube3exit);
-        $("#cube1modal").hover(cube3enter, cube3exit);
 
-        $("#cube1").click(function(){
-          $("#cube2modal").css({display:"block"});
+//for hovering over Peter's room
+//         var cube4enter= function(){
+//           $("#peter").css({display:"block"});
+//           };
+
+//         var cube4exit= function(){
+//           $("#peter").css({display:"none"});
+//           };
+
+//         $("#cube4").hover(cube4enter, cube4exit);
+//         $("#peter").hover(cube4enter, cube4exit);
+
+// //for hovering over Anne's room
+//         var cube7enter= function(){
+//           $("#anne").css({display:"block"});
+//           };
+
+//         var cube7exit= function(){
+//           $("#anne").css({display:"none"});
+//           };
+
+//         $("#cube7").hover(cube7enter, cube7exit);
+//         $("#anne").hover(cube7enter, cube7exit);
+
+// //for hovering over Franks's room
+//         var cube8enter= function(){
+//           $("#anne").css({display:"block"});
+//           };
+
+//         var cube8exit= function(){
+//           $("#anne").css({display:"none"});
+//           };
+
+//         $("#cube8").hover(cube8enter, cube8exit);
+//         $("#franks").hover(cube8enter, cube8exit);
+
+
+        $("#cube6").click(function(){
+          $("#bathroom").css({display:"block"});
+        });
+
+        $("#cube5").click(function(){
+          $("#entrance").css({display:"block"});
+        });
+
+
+        $("#cube7").click(function(){
+          $("#anne").css({display:"block"});
+        });
+
+        $("#cube8").click(function(){
+          $("#franks").css({display:"block"});
+        })
+
+        $("#cube3").click(function(){
+          $("#vanpels").css({display:"block"});
+        })
+
+
+        $("#cube4").click(function(){
+          $("#peter").css({display:"block"});
         })
 
         $("#cube2").click(function(){
           $("#cube3modal").css({display:"block"});
         })
 
-        $(".grey").click(function(){
-        $("#grey").css({display:"block"});
-        //console.log("grey");
-        })
-
-        $(".lightGrey").click(function(){
-        $("#lightGrey").css({display:"block"});
-        //console.log("lightgrey");
-        })
-
-// when the user clicks on on close, it goes away
         $(".close").click(function(){
             $(this).parents(".modal").css({display:"none"});
             //console.log("close");
