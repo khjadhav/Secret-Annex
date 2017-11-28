@@ -1,9 +1,6 @@
-var overlay1 = $("<div id='overlay'></div>");
+
 $(document).ready(function() {
     $(".black").click(function(e) {
-
-      // $("#cube3").css({z-index:"500"});
-      // $("#cube4").css({z-index:"500"});
 
         anime({
             targets:'div.grey',
@@ -29,8 +26,6 @@ $(document).ready(function() {
 
       $(this).parents('.all').children().addClass('expanded');
 
-      // var height_responsive=$(".all-wrapper").height();
-      // var h=$(document).height();
       $(".all-wrapper").css({height:"1200px"});
       $(".all").css({height:"1200px"});
       $(document).on( "mouseenter", ".expanded .grey-cube", function() {
@@ -49,12 +44,12 @@ $(document).ready(function() {
 
       if ($(this).siblings().hasClass("modal")){
         var pos=$(this).position()
-        $("#vanpels").css({opacity:"1", position:"absolute", top:"-174px", left:"375px", width:"100%"});
-        $("#peter").css({opacity:"1",position:"absolute", top:"-136px", left:"-405px", width:"100%"});
+        $("#vanpels").css({opacity:"1", width:"100%"});
+        $("#peter").css({opacity:"1", width:"100%"});
         $("#anne").css({opacity:"1", width:"100%"});
-        $("#franks").css({opacity:"1",position:"absolute", top:"-490px", width:"100%"});
-        $("#bathroom").css({opacity:"1",right:pos.right, width:"100%"});
-        $("#entrance").css({opacity:"1",right:pos.right, width:"100%"});
+        $("#franks").css({opacity:"1", width:"100%"});
+        $("#bathroom").css({opacity:"1", width:"100%"});
+        $("#entrance").css({opacity:"1", width:"100%"});
       }
 
     });
@@ -93,12 +88,12 @@ $(document).ready(function() {
 
       if ($(this).siblings().hasClass("modal")){
         var pos=$(this).position()
-        $("#vanpels").css({opacity:"1", position:"absolute", top:"0px", left:"0px", right:pos.right, width:"100%"});
-        $("#peter").css({opacity:"1",position:"absolute", top:"-136px", left:"-405px", width:"100%"});
+        $("#vanpels").css({opacity:"1", width:"100%"});
+        $("#peter").css({opacity:"1", width:"100%"});
         $("#anne").css({opacity:"1", width:"100%"});
-        $("#franks").css({opacity:"1",position:"absolute", top:"-490px", width:"100%"});
-        $("#bathroom").css({opacity:"1",position:"absolute", top:"-340px", left:"-280px", width:"100%"});
-        $("#entrance").css({opacity:"1",position:"absolute", top:"-129px", width:"100%"});
+        $("#franks").css({opacity:"1", width:"100%"});
+        $("#bathroom").css({opacity:"1", width:"100%"});
+        $("#entrance").css({opacity:"1", width:"100%"});
       }
 
     });
