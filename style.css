@@ -164,6 +164,27 @@ a{
   margin: auto auto;
 }
 
+#anne{
+  position: absolute;
+  top:-387px;
+  left:378px;
+}
+
+#thanks:hover{
+  opacity:0.8;
+}
+
+#thanks{
+    padding-top: 100px;
+    font-family: Avenir;
+    font-size: 9px;
+    width:30%;
+    margin:auto;
+    text-align: center;
+    color:#80647E;
+    opacity:0.3;
+}
+
 
 /*.grey-active .black,.grey-active .lightGrey{
   opacity: 0.3;
@@ -278,13 +299,20 @@ a{
 }
 
 @media screen and (max-width: 480px) {
+
+  .outlines{
+    margin-left: -1070px;
+    margin-top: 180px;
+    width:250%;
+  }
+
   .all-wrapper{
-    height:300px;
+    height:auto;
   }
 
   .all{
     width: 320px;
-    height:300px;
+    height:auto;
   }
   #cube{
     width:106%;
@@ -333,6 +361,14 @@ a{
     margin-top: -282px;
     margin-left: 93px;
     padding-bottom: 122px;
+  }
+
+  #anne{
+    left:-32px;
+  }
+
+  #bathroom{
+
   }
 
 }
