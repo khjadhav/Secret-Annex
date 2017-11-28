@@ -366,9 +366,10 @@ a{
 @media screen and (max-width: 480px) {
 
   .outlines{
-    margin-left: -1070px;
-    margin-top: 180px;
-    width:250%;
+    z-index:0;
+    margin-left: -369px;
+    margin-top: 135px;
+    width:235%;
   }
 
   .all-wrapper{
