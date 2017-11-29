@@ -16,6 +16,8 @@ $(document).ready(function() {
             { value: 580, duration: 800, easing: 'easeInOutSine'},
             ],
             })
+
+      //move the Thank you note down
          anime({
             targets:'div.thankyou',
             translateY: [
@@ -104,9 +106,8 @@ $(document).ready(function() {
         $("#entrance").css({opacity:"1", width:"100%"});
       }
     });
-  })
 
-      // for displaying the modal when you hover over VanPel's room
+          // for displaying the modal when you hover over VanPel's room
         var cube3enter= function(){
           $("#vanpels").css({display:"block"});
           };
@@ -185,6 +186,9 @@ $(document).ready(function() {
             $(this).parents(".modal").css({display:"none"});
             overlay.remove();
         })
+  })
+
+
 
 
 
