@@ -164,12 +164,13 @@ html, body, h1, h2, h3, h4, p, div, ul,li,a {
 #thanks{
     padding-top: 60px;
     font-family: Avenir;
-    font-size: 9px;
+    font-size: 10px;
     width:30%;
     margin:auto;
     text-align: center;
     color:#80647E;
     opacity:0.3;
+    padding-bottom: 30px;
 }
 
 
