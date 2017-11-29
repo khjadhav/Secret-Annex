@@ -6,16 +6,17 @@ html, body, h1, h2, h3, h4, p, div, ul,li,a {
     font:inherit;
     font-size: 100%;
     font-family: Avenir, Helvetica, sans-serif;
-
 }
 
  html, body {
-                width: 100%;
-                height: 100%;
-                margin: 0;
-                padding: 0;
-                background-color: #E7DADA;
-            }
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      background-color: #E7DADA;
+}
+
+
 /*____________________________________________________________________________________________*/
 .entry{
   background-color: #E7DADA;
@@ -25,7 +26,6 @@ html, body, h1, h2, h3, h4, p, div, ul,li,a {
 
 .outlines{
   z-index: 0;
-/*  margin-top: -320px;*/
   width:100%;
   height:100%;
   overflow: hidden;
@@ -205,7 +205,7 @@ a{
 }
 
 #thanks{
-    padding-top: 100px;
+    padding-top: 60px;
     font-family: Avenir;
     font-size: 9px;
     width:30%;
@@ -216,17 +216,17 @@ a{
 }
 
 
-/*.grey-active .black,.grey-active .lightGrey{
-  opacity: 0.3;
+#roofinstruction{
+    padding-top: 30px;
+    font-family: Avenir;
+    font-size: 16px;
+    font-weight: 600;
+    width:30%;
+    margin:auto;
+    text-align: center;
+    color:#80647E;
+    opacity:0.3;
 }
-
-.black-active .grey,.black-active .lightGrey{
-  opacity: 0.3;
-}
-
-.light-grey-active .black,.light-grey-active .grey{
-  opacity: 0.3;
-}*/
 
 
 .active{
@@ -322,7 +322,16 @@ a{
 }
 
 
+
+
 @media screen and (max-width: 767px) {
+
+  .outlines{
+    width:140%;
+    z-index:0;
+    margin-left:-290px;
+  }
+
   .modalPicture{
     width: 100px;
   }
@@ -367,7 +376,7 @@ a{
 
   .outlines{
     z-index:0;
-    margin-left: -369px;
+    margin-left: -447px;
     margin-top: 135px;
     width:235%;
   }
