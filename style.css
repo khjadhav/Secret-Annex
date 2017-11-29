@@ -25,8 +25,8 @@ html, body, h1, h2, h3, h4, p, div, ul,li,a {
 
 .outlines{
     z-index: 0;
-    width:110%;
-    margin-left: -50px;
+    width:105%;
+    margin-left: -20px;
     height:100%;
     overflow: hidden;
 }
