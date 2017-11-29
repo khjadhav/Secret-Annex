@@ -341,12 +341,11 @@ html, body, h1, h2, h3, h4, p, div, ul,li,a {
 }
 
 @media screen and (max-width: 480px) {
-
   .outlines{
     z-index:0;
-    margin-left: -315px;
+    margin-left: -345px;
     margin-top: 175px;
-    width:215%;
+    width:200%;
   }
 
   .all-wrapper{
