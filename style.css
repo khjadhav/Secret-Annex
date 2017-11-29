@@ -18,16 +18,17 @@ html, body, h1, h2, h3, h4, p, div, ul,li,a {
 
 /*_______________________________________Entry Page___________________________________________*/
 .entry{
-  background-color: #E7DADA;
-  overflow:hidden;
-  position: relative;
+    background-color: #E7DADA;
+    overflow:hidden;
+    position: relative;
 }
 
 .outlines{
-  z-index: 0;
-  width:100%;
-  height:100%;
-  overflow: hidden;
+    z-index: 0;
+    width:110%;
+    margin-left: -50px;
+    height:100%;
+    overflow: hidden;
 }
 
 
@@ -61,41 +62,22 @@ html, body, h1, h2, h3, h4, p, div, ul,li,a {
     margin-top:30px;
 }
 
-/*.grey .expanded .zoomTarget{
-    height:400px;
-}*/
 
 #cube3{
-
     position: relative;
     z-index: 500;
     margin-top:-290px;
     margin-left:132px;
 }
 
-/*#cube3 .expanded{
-
-    position: relative;
-    z-index: 500;
-    margin-top:-290px;
-    margin-left:132px;
-}*/
 
 #cube4{
-
     position: relative;
     z-index: 500;
     margin-top:-255px;
     margin-left:3px;
 }
 
-/*#cube4 .expanded{
-
-    position: relative;
-    z-index: 500;
-    margin-top:-255px;
-    margin-left:3px;
-}*/
 
 #cube5{
     position: relative;
@@ -217,17 +199,16 @@ html, body, h1, h2, h3, h4, p, div, ul,li,a {
 
 .all {
     -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 3s; /* Firefox < 16 */
-        -ms-animation: fadein 3s; /* Internet Explorer */
-         -o-animation: fadein 3s; /* Opera < 12.1 */
-            animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox < 16 */
+    -ms-animation: fadein 3s; /* Internet Explorer */
+    -o-animation: fadein 3s; /* Opera < 12.1 */
+    animation: fadein 3s;
 }
 
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
-
 
 
 
@@ -242,11 +223,11 @@ html, body, h1, h2, h3, h4, p, div, ul,li,a {
     height: 100%; /* Full height */
     /*overflow: auto;*//*Enable scroll if needed */
     z-index: 1500;
-        -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 1s; /* Firefox < 16 */
-        -ms-animation: fadein 1s; /* Internet Explorer */
-         -o-animation: fadein 1s; /* Opera < 12.1 */
-            animation: fadein 1s;
+    -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: fadein 1s; /* Firefox < 16 */
+    -ms-animation: fadein 1s; /* Internet Explorer */
+    -o-animation: fadein 1s; /* Opera < 12.1 */
+    animation: fadein 1s;
 }
 
 @keyframes fadein {
