@@ -334,6 +334,7 @@ html, body, h1, h2, h3, h4, p, div, ul,li,a {
 /*Change alignment of objects for mobile view*/
 @media screen and (max-width: 480px) {
 
+/*make the text size slightly larger in the mobile view*/
   .modalText{
     font-family: AvenirNext-Medium;
     font-size: 12px;
