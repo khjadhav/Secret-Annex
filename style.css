@@ -7,7 +7,7 @@ html, body, h1, h2, h3, h4, p, div, ul,li,a {
     font-size: 100%;
     font-family: Avenir, Helvetica, sans-serif;
 }
-
+/*Change background color of the page to a cream color*/
  html, body {
       width: 100%;
       height: 100%;
@@ -17,12 +17,15 @@ html, body, h1, h2, h3, h4, p, div, ul,li,a {
 }
 
 /*_______________________________________Entry Page___________________________________________*/
+
+
 .entry{
     background-color: #E7DADA;
     overflow:hidden;
     position: relative;
 }
 
+/*align the landing page image*/
 .outlines{
     z-index: 0;
     width:110%;
@@ -31,30 +34,9 @@ html, body, h1, h2, h3, h4, p, div, ul,li,a {
     overflow: hidden;
 }
 
-
- button{
-    z-index:100;
-    margin-left: 48%;
-    margin-top: 90px;
-
-    width: 217px;
-    height: 40px;
-    border-radius: 2px;
-    background-color: #E7DADA;
-    border: solid 2px #000000;
-    margin-top:250px;
-    margin-bottom: 37px;
-    font-family: Avenir;
-    font-size: 12px;
-    font-weight: 700;
-    letter-spacing: 1.3px;
-    text-align: center;
-    color: #000000;
-}
-
 /*_______________________________________Secret Annex Page___________________________________________*/
 
-
+/*layer the roof as the topmost layer and align it*/
 #cube{
     position: relative;
     z-index: 1000;
@@ -62,7 +44,7 @@ html, body, h1, h2, h3, h4, p, div, ul,li,a {
     margin-top:30px;
 }
 
-
+/*first floor-layer VanPel's room under the roof and align it*/
 #cube3{
     position: relative;
     z-index: 500;
@@ -70,7 +52,7 @@ html, body, h1, h2, h3, h4, p, div, ul,li,a {
     margin-left:132px;
 }
 
-
+/*first floor-layer Peter's room under the roof and align it*/
 #cube4{
     position: relative;
     z-index: 500;
@@ -78,7 +60,7 @@ html, body, h1, h2, h3, h4, p, div, ul,li,a {
     margin-left:3px;
 }
 
-
+/*second floor-layer the bathroom under the first floor and align it*/
 #cube5{
     position: relative;
     z-index: 250;
@@ -87,6 +69,7 @@ html, body, h1, h2, h3, h4, p, div, ul,li,a {
     padding-bottom: 0px;
 }
 
+/*second floor-layer the bathroom under the first floor and align it*/
 #cube6{
     position: relative;
     z-index: 250;
@@ -94,6 +77,7 @@ html, body, h1, h2, h3, h4, p, div, ul,li,a {
     margin-left: 0px;
 }
 
+/*second floor-layer Anne's under the first floor and align it*/
 #cube7{
     position: relative;
     z-index: 200;
@@ -102,7 +86,7 @@ html, body, h1, h2, h3, h4, p, div, ul,li,a {
     padding-bottom: 39px;
 }
 
-
+/*second floor-layer Anne's under the first floor and align it*/
 #cube8{
     position: relative;
     z-index: 10;
@@ -111,56 +95,66 @@ html, body, h1, h2, h3, h4, p, div, ul,li,a {
     padding-bottom: 106px;
 }
 
+/*Display the floors inline*/
 .black,.grey,.lightGrey{
   display: inline-block;
   width: 100%;
 }
 
+/*make the div which has all the other elements*/
 .all{
   width: 507px;
   margin: auto auto;
 }
 
+/*align anne's room*/
 #anne{
   position: absolute;
   top:-387px;
   left:378px;
 }
 
+/*align Peter's room*/
 #peter{
   position: absolute;
   top:-136px;
   left:-405px;
 }
 
+/*align VanPel's room*/
 #vanpels{
   position: absolute;
   top:-174px;
   left:375px;
 }
 
+/*align Frank's room*/
 #franks{
   position: absolute;
   top:-490px;
 }
 
+
+/*align the entrance*/
 #entrance{
   position: absolute;
   top:-163px;
   left:-410px;
 }
 
+/*align the bathroom*/
 #bathroom{
   position: absolute;
   top:-340px;
   left:-280px;
 }
 
-
+/*Change opacity of the thank you note on hover*/
 #thanks:hover{
   opacity:0.8;
 }
 
+/*Align the Thank you note*/
 #thanks{
     padding-top: 60px;
     font-family: Avenir;
@@ -173,7 +167,7 @@ html, body, h1, h2, h3, h4, p, div, ul,li,a {
     padding-bottom: 30px;
 }
 
-
+/*Align the instruction for the roof*/
 #roofinstruction{
     padding-top: 30px;
     font-family: Avenir;
@@ -186,18 +180,17 @@ html, body, h1, h2, h3, h4, p, div, ul,li,a {
     opacity:0.3;
 }
 
-
+/*class for "active" rooms ( rooms selected on hover)*/
 .active{
     opacity:1.0;
 }
-
-
+/*class for "notActive" rooms ( all the other rooms except the selected one)*/
 .notActive{
     opacity:0.2;
 }
 
 
-
+/*Fade in the house when the page loads*/
 .all {
     -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 3s; /* Firefox < 16 */
@@ -205,15 +198,15 @@ html, body, h1, h2, h3, h4, p, div, ul,li,a {
     -o-animation: fadein 3s; /* Opera < 12.1 */
     animation: fadein 3s;
 }
-
+/*Add keyframes from 0 to 1*/
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
 
+/*_______________________________________Modals___________________________________________*/
 
-
-
+/*Align the modal and add fadein */
 .modal {
     display: none; /* Hidden by default */
     position: absolute; /* Stay in place */
@@ -222,7 +215,6 @@ html, body, h1, h2, h3, h4, p, div, ul,li,a {
     top: 0;
     width: 100%; /* Full width */
     height: 100%; /* Full height */
-    /*overflow: auto;*//*Enable scroll if needed */
     z-index: 1500;
     -webkit-animation: fadein 3s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 1s; /* Firefox < 16 */
@@ -230,13 +222,13 @@ html, body, h1, h2, h3, h4, p, div, ul,li,a {
     -o-animation: fadein 1s; /* Opera < 12.1 */
     animation: fadein 1s;
 }
-
+/*Add keyframes from 0 to 1*/
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
 }
 
-/* Modal Content */
+/* Align and format the text within the modal */
 .modal-content {
     text-align: center;
     background: #040203;
@@ -249,11 +241,8 @@ html, body, h1, h2, h3, h4, p, div, ul,li,a {
     z-index:2000;
 }
 
-.modal-content span{
-    color: #83D1FF;
-    margin-top: -16px;
-}
 
+/* Align and format the modal picture */
 .modalPicture{
     display:block;
     width:100px;
@@ -262,12 +251,14 @@ html, body, h1, h2, h3, h4, p, div, ul,li,a {
     margin-left:auto;
 }
 
+/*Format font size for modal heading*/
 .modalHeading {
     font-family: AvenirNext-Bold;
     font-size: 16px;
     color: #83D1FF;
 }
 
+/*Format font size for modal body*/
 .modalText{
     font-family: AvenirNext-Medium;
     font-size: 10px;
@@ -283,6 +274,7 @@ html, body, h1, h2, h3, h4, p, div, ul,li,a {
     font-weight: bold;
 }
 
+/*format close button on hover*/
 .close:hover,
 .close:focus {
     color: #FFFFFF;
@@ -290,9 +282,7 @@ html, body, h1, h2, h3, h4, p, div, ul,li,a {
     cursor: pointer;
 }
 
-
-
-
+/*Change alignment of objects for tablet view*/
 @media screen and (max-width: 767px) {
 
   .outlines{
@@ -341,7 +331,15 @@ html, body, h1, h2, h3, h4, p, div, ul,li,a {
   }
 }
 
+/*Change alignment of objects for mobile view*/
 @media screen and (max-width: 480px) {
+
+  .modalText{
+    font-family: AvenirNext-Medium;
+    font-size: 12px;
+    color: #83D1FF;
+
+}
   .outlines{
     z-index:0;
     margin-left: -305px;
